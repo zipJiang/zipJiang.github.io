@@ -30,7 +30,7 @@ twitter_username: ZhengpingJiang
 github_username:  zipJiang
 
 # Build settings
-theme: "jekyll-theme-slate"
+theme: jekyll-theme-slate
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
