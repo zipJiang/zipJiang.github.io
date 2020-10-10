@@ -30,7 +30,7 @@ twitter_username: ZhengpingJiang
 github_username:  zipJiang
 
 # Build settings
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.20.2"
 plugins:
   - jekyll-feed
 
