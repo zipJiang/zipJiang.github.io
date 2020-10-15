@@ -4,7 +4,7 @@ layout: default
 
 ## About me
 
-I'm a master student at Columbia University majoring in computer science, expected to graduate December 2020. I'm an NLP enthusiasts, with primary interest in building more controllable and human-like models for prediction/generation with effective supervision. I'm applying for PhD for Fall 2021.
+I'm a master student at Columbia University majoring in computer science, expected to graduate December 2020. I'm an NLP enthusiasts, with primary interest in building more controllable and human-like models for prediction/generation with effective supervision. I'm applying for PhD for Fall 2021. Please find my full CV [here](https://drive.google.com/file/d/16AaT_9PiCCd9W6bMD_eIzf_E6iCSI202/view?usp=drivesdk) if you are interested.
 
 ## Research Experience
 
