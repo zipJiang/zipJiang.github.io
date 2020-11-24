@@ -20,7 +20,3 @@ I'm a master student at Columbia University majoring in computer science, expect
 2. David Wan, Zhengping Jiang, Chris Kedzie, Elsbeth Turcan, Peter Bell, and Kathy McKeown. **Subtitles to segmentation: Improving low-resource speech-to-TextTranslation pipelines**. _CLSST2020_ \[[paper](https://www.aclweb.org/anthology/2020.clssts-1.11.pdf)\]
 3. Tongfei Chen\*, Zhengping Jiang\*, Adam Poliak, Keisuke Sakaguchi, and Benjamin Van Durme. **Uncertain natural language inference**. _ACL2020_ \[[paper](https://www.aclweb.org/anthology/2020.acl-main.774.pdf)\]\[[code](https://nlp.jhu.edu/unli/)\]
 4. Zhengping Jiang and Qi Sun. **CSReader at SemEval-2018 task 11: Multiple choice question answering as textual entailment**. _SemEval2018_ \[[paper](https://www.aclweb.org/anthology/S18-1176.pdf)\]
-
-## Posts
-
-(Coming Soon)
