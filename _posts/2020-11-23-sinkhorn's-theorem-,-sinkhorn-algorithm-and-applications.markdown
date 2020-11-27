@@ -56,7 +56,7 @@ I would like to stop and mention that as we now interpret $$A$$ as a joint proba
 $$
     H(A) = \sum_{ij} a_{ij}\log_{ij}\\
     H(r) = \sum_{i = 1}^{N} (\sum_{j = 1}^{N}a_{ij})\log \sum_{j = 1}^{N}a_{ij}\\
-    H(c) = \sum_{j = 1}^{N} (\sum_{i = 1}^{N}a_{ij})\log \sum_{i = 1}^{N}a_{ij}
+    H(c) = \sum_{j = 1}^{N} (\sum_{i = 1}^{N}a_{ij})\log \sum_{i = 1}^{N}a_{ij}\\
     \mathcal{D}_{\text{KL}}(A\|B) = \sum_{ij} a_{ij}\log \frac{a_{ij}}{b_{ij}}
 $$
 
@@ -71,10 +71,10 @@ This inequality is tight, as when $$r$$ is independent from $$c$$, the equality 
 You might think that we are applying the Sinkhorn algorithm to solve the original OT problem as mentioned above, but actually no. original OT is notoriously sparse and since the optimization is non-convex it is not guaranteed to converge to a unique solution. Instead, researchers try to deal with this kind of sparsity with regularization terms that encourage diversity of different transportation route. Thus the objective of OT becomes:
 
 $$
-    P = \argmin_{A \in U(r, c)} \langle A, M \rangle - \frac{1}{\lambda} H(A)
+    P = \arg\min_{A \in U(r, c)} \langle A, M \rangle - \frac{1}{\lambda} H(A)
 $$
 
-It is known in the field of OT that the solution to this kind of $$\argmin$$ problem is a rescaling of the matrix $$K = -\lambda M$$, which could be expressed as $$\tilde{K} = \text{Diag}(u)K\text{Diag}(v)$$, and with the following constraints:
+It is known in the field of OT that the solution to this kind of $$\arg\min$$ problem is a rescaling of the matrix $$K = -\lambda M$$, which could be expressed as $$\tilde{K} = \text{Diag}(u)K\text{Diag}(v)$$, and with the following constraints:
 
 $$
     u \circ (\tilde{K}\cdot v) = r\\
@@ -87,8 +87,8 @@ This kind of rescaling problem could directly solved by Sinkhorn iteration. Noti
 
 To get a sense of why this kind of OT is useful in machine learning, we now look at a example in the autoencoder literature. Learning meaningful low dimension representation of surface data often needs proper regularization to the hidden states. We know that in VAE, there is a KL-divergence term pulling $$Q_{\phi}(Z|x)$$ to $$P_{\theta}(Z)$$, where as in AAE, people use a discriminator to align the marginal distribution $$\int Q_{\phi}(Z|X)P_{\text{data}}(X)dX$$ with $$P_{\theta}(Z)$$.
 
-Wasserstein autoencoder is a theoretical formulation of modeling the hidden space by aligning the modeling distribution $$P_{\theta}(X)$$ target data distribution $$P_{\text{data}}(X)$$ when given a specific generation function $$G: Z \rightarrow X$$ from a prior hidden space distribution $$p(Z)$$. Basically, the authors show that, minimizing the Wasserstein distance $$W_c$$ in the data space when giving a deterministic decoder $$G$$ as mentioned before, is equivalent to minimizing the expected difference between real datapoints $$X$$ and their encoded and decoded counter-part $$G(Z)$$, with the constraints that the marginal distribution of $$\int Q(Z|X)P(X) dX$$ is the same as the prior $$P(Z)$$. A relexation of this would give us the objective:
+Wasserstein autoencoder is a theoretical formulation of modeling the hidden space by aligning the modeling distribution $$P_{\theta}(X)$$ target data distribution $$P_{\text{data}}(X)$$ when given a specific generation function $$G: Z \rightarrow X$$ from a prior hidden space distribution $$p(Z)$$. Basically, the authors show that, minimizing the Wasserstein distance $$W_c$$ in the data space when giving a deterministic decoder $$G$$ as mentioned before, is equivalent to minimizing the expected difference between real datapoints $$X$$ and their encoded and decoded counter-part $$G(Z)$$, with the constraints that the marginal distribution of $$ \int Q(Z|X)P(X)dX $$ is the same as the prior $$P(Z)$$. A relexation of this would give us the objective:
 
 $$
-    \mathcal{D}_{WAE} = \inf_{Q(Z|X) \in Q} \mathbbm{E}_{P_{\text{data}}(X)}\mathbbm{E}_{Q(Z|X)}\large[c(X, G(Z))\large] + \lambda \mathcal{D}_{Z}(Q(Z), P(Z))
+    \mathcal{D}_{WAE} = \inf_{Q(Z|X) \in Q} \mathbb{E}_{P_{\text{data}}(X)}\mathbb{E}_{Q(Z|X)}\large[c(X, G(Z))\large] + \lambda \mathcal{D}_{Z}(Q(Z), P(Z))
 $$
