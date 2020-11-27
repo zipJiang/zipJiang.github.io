@@ -36,7 +36,7 @@ def sinkhorn(A, N, L):
     return A
 ```
 
-It's obviousv that the algorithm has a complexity of $$O(N^2)$$ if applied a constant times at every step. Also notice that as we could write normalization as matrix multiplication, Sinkhorn algorithm is fully differentiable.
+It's obvious that the algorithm has a complexity of $$O(N^2)$$ if applied a constant times at every step. Also notice that as we could write normalization as matrix multiplication, Sinkhorn algorithm is fully differentiable.
 
 ## Optimal Transport
 
@@ -47,4 +47,48 @@ So how is calculating a doubly stochastic matrix related to optimal transport?
 First notice that optimal transport problem could be expressed in matrix form. Suppose we have $$N$$ number of starting points and $$N$$ number of destinations. Also, we have a distance matrix $$M \in \mathcal{R}^{N \times N}$$ where entry $$m_{ij}$$ indicates the distance, or in another word, the cost of moving items from starting point $$i$$ to destination $$j$$.
 
 Now suppose our cargos are randomly distributed according to $$r$$ among the $$N$$ starting points. And we would like them to be distributed according to another distribution $$c$$. Now we can write up a matrix $$A \in \mathcal{R}^{N \times N}$$, where $$a_{ij}$$ corresponds to how much portion of the total cargos we would like to transport from starting point $$i$$ to destination $$j$$. Another way to view this matrix $$A$$ is that $$A$$ defines a joint distribution in the
-transportation space and $$r$$ and $$c$$ could be seen as its marginals of starting points and destinations respectively. Now it's not hard to see that the final transportation cost would be the element-wise product between $$A$$ and $$M$$, or in other words the Frobenius inner product $$\langle A,M \rangle$$.
+transportation space and $$r$$ and $$c$$ could be seen as its marginals of starting points and destinations respectively. Now it's not hard to see that the final transportation cost would be the element-wise product between $$A$$ and $$M$$, or in other words the Frobenius inner product $$\langle A,M \rangle$$. In fact, this is called the Kantorovich relaxation of OT.
+
+There is the conclusion that if $$M$$ is a distance matrix, that is, every element in the matrix comform to the three property of distance, the inner product is a distance itself. Confirming this should not be hard. To make a transfort optimal is to find the minimum cost of the total transport, that is, to minimize the Frobenius inner product.
+
+I would like to stop and mention that as we now interpret $$A$$ as a joint probability matrix, we can define its entropy, the marginal probabiilty entropy, and KL-divergence between two different transportation matrix. These takes the form of
+
+$$
+    H(A) = \sum_{ij} a_{ij}\log_{ij}\\
+    H(r) = \sum_{i = 1}^{N} (\sum_{j = 1}^{N}a_{ij})\log \sum_{j = 1}^{N}a_{ij}\\
+    H(c) = \sum_{j = 1}^{N} (\sum_{i = 1}^{N}a_{ij})\log \sum_{i = 1}^{N}a_{ij}
+    \mathcal{D}_{\text{KL}}(A\|B) = \sum_{ij} a_{ij}\log \frac{a_{ij}}{b_{ij}}
+$$
+
+Notice that as these are plain probability distributions, the inequality for joint probabilities still hold here:
+
+$$
+    H(A) \leq H(r) + H(c)
+$$
+
+This inequality is tight, as when $$r$$ is independent from $$c$$, the equality holds.
+
+You might think that we are applying the Sinkhorn algorithm to solve the original OT problem as mentioned above, but actually no. original OT is notoriously sparse and since the optimization is non-convex it is not guaranteed to converge to a unique solution. Instead, researchers try to deal with this kind of sparsity with regularization terms that encourage diversity of different transportation route. Thus the objective of OT becomes:
+
+$$
+    P = \argmin_{A \in U(r, c)} \langle A, M \rangle - \frac{1}{\lambda} H(A)
+$$
+
+It is known in the field of OT that the solution to this kind of $$\argmin$$ problem is a rescaling of the matrix $$K = -\lambda M$$, which could be expressed as $$\tilde{K} = \text{Diag}(u)K\text{Diag}(v)$$, and with the following constraints:
+
+$$
+    u \circ (\tilde{K}\cdot v) = r\\
+    (u\cdot\tilde{K}) \circ v = c
+$$
+
+This kind of rescaling problem could directly solved by Sinkhorn iteration. Notice that we are not using the exact form of Sinkhorn algorithm above, as now we have set of constraints regularizing the marginals $$r, c$$, but it can still be solved by mapping the row-marginal to $$r$$ and column-marginal to $$c$$ respectively.
+
+## From Wasserstein Autoencoder to Sinkhorn Autoencoder
+
+To get a sense of why this kind of OT is useful in machine learning, we now look at a example in the autoencoder literature. Learning meaningful low dimension representation of surface data often needs proper regularization to the hidden states. We know that in VAE, there is a KL-divergence term pulling $$Q_{\phi}(Z|x)$$ to $$P_{\theta}(Z)$$, where as in AAE, people use a discriminator to align the marginal distribution $$\int Q_{\phi}(Z|X)P_{\text{data}}(X)dX$$ with $$P_{\theta}(Z)$$.
+
+Wasserstein autoencoder is a theoretical formulation of modeling the hidden space by aligning the modeling distribution $$P_{\theta}(X)$$ target data distribution $$P_{\text{data}}(X)$$ when given a specific generation function $$G: Z \rightarrow X$$ from a prior hidden space distribution $$p(Z)$$. Basically, the authors show that, minimizing the Wasserstein distance $$W_c$$ in the data space when giving a deterministic decoder $$G$$ as mentioned before, is equivalent to minimizing the expected difference between real datapoints $$X$$ and their encoded and decoded counter-part $$G(Z)$$, with the constraints that the marginal distribution of $$\int Q(Z|X)P(X) dX$$ is the same as the prior $$P(Z)$$. A relexation of this would give us the objective:
+
+$$
+    \mathcal{D}_{WAE} = \inf_{Q(Z|X) \in Q} \mathbbm{E}_{P_{\text{data}}(X)}\mathbbm{E}_{Q(Z|X)}\large[c(X, G(Z))\large] + \lambda \mathcal{D}_{Z}(Q(Z), P(Z))
+$$
