@@ -90,7 +90,7 @@ To get a sense of why this kind of OT is useful in machine learning, we now look
 Wasserstein autoencoder is a theoretical formulation of modeling the hidden space by aligning the modeling distribution $$P_{\theta}(X)$$ target data distribution $$P_{\text{data}}(X)$$ when given a specific generation function $$G: Z \rightarrow X$$ from a prior hidden space distribution $$p(Z)$$. Basically, the authors show that, minimizing the Wasserstein distance $$W_c$$ in the data space when giving a deterministic decoder $$G$$ as mentioned before, is equivalent to minimizing the expected difference between real datapoints $$X$$ and their encoded and decoded counter-part $$G(Z)$$, with the constraints that the marginal distribution of $$ \int Q(Z \mid X)P(X)dX $$ is the same as the prior $$P(Z)$$. A relexation of this would give us the objective:
 
 $$
-    \mathcal{D}_{WAE} = \inf_{Q(Z \mid X) \in Q} \mathbb{E}_{P_{\text{data}}(X)}\mathbb{E}_{Q(Z \mid X)}\large[c(X, G(Z))\large] + \lambda \mathcal{D}_{Z}(Q(Z), P(Z))
+    \mathcal{D}_{WAE} = \inf_{Q(Z \mid X) \in Q} \mathbb{E}_{P_{\text{data}}(X)}\mathbb{E}_{Q(Z \mid X)}[c(X, G(Z))] + \lambda \mathcal{D}_{Z}(Q(Z), P(Z))
 $$
 
 Because Wasserstein GAN approaches this formulation through empirical relaxation, they lack a rigorous interpretation why adding a divergence term on $$Q(Z), P(Z)$$ should work and what kind of divergence should work best. In fact, if we choose different divergence we are arriving at different kind of autoencoder formulation. For example, using adverserial loss for this term will give us adversarial autoencoder.
