@@ -20,10 +20,10 @@ What is great about Sinkhorn's theorem is that there is a efficient algorithm to
 
 ```python3
 def sinkhorn(A, N, L):
-# Pseudo-Code for calculating the doubly stochastic matrix
-# using Sinkhorn-Knopp algorithm.
-# ----------
-# Input: positive matrix A[N x N], max iteration L
+    # Pseudo-Code for calculating the doubly stochastic matrix
+    # using Sinkhorn-Knopp algorithm.
+    # ----------
+    # Input: positive matrix A[N x N], max iteration L
 
     for i in range(L):
         A = A / np.matmul(A, np.ones(N, 1))
