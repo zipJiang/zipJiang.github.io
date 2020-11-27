@@ -36,8 +36,15 @@ def sinkhorn(A, N, L):
     return A
 ```
 
+It's obviousv that the algorithm has a complexity of $$O(N^2)$$ if applied a constant times at every step. Also notice that as we could write normalization as matrix multiplication, Sinkhorn algorithm is fully differentiable.
+
 ## Optimal Transport
 
 We are now considering a very interesting application of this algorithm, which is in calculating optimal transport distance. Optimal transport is useful as a distance metric between distributions, in which way it plays a very important role in GAN and \*AE to stablize training.
 
 So how is calculating a doubly stochastic matrix related to optimal transport?
+
+First notice that optimal transport problem could be expressed in matrix form. Suppose we have $$N$$ number of starting points and $$N$$ number of destinations. Also, we have a distance matrix $$M \in \mathcal{R}^{N \times N}$$ where entry $$m_{ij}$$ indicates the distance, or in another word, the cost of moving items from starting point $$i$$ to destination $$j$$.
+
+Now suppose our cargos are randomly distributed according to $$r$$ among the $$N$$ starting points. And we would like them to be distributed according to another distribution $$c$$. Now we can write up a matrix $$A \in \mathcal{R}^{N \times N}$$, where $$a_{ij}$$ corresponds to how much portion of the total cargos we would like to transport from starting point $$i$$ to destination $$j$$. Another way to view this matrix $$A$$ is that $$A$$ defines a joint distribution between the
+transportation space and $$r$$ and $$c$$ could be seen as their marginals of starting points and destinations respectively. Now it's not hard to see that the final transportation cost would be the element-wise product between $$A$$ and $$M$$, or in other words the Frobenius inner product $$\langle A,M \rangle$$.
