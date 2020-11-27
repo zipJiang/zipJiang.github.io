@@ -38,6 +38,6 @@ def sinkhorn(A, N, L):
 
 ## Optimal Transport
 
-We are now considering a very interesting application of this algorithm, which is in calculating optimal transport distance. Optimal transport is useful as a distance metric between distribution, in which way it plays a very important in GAN and \*AE to stablize training.
+We are now considering a very interesting application of this algorithm, which is in calculating optimal transport distance. Optimal transport is useful as a distance metric between distributions, in which way it plays a very important role in GAN and \*AE to stablize training.
 
 So how is calculating a doubly stochastic matrix related to optimal transport?
