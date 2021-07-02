@@ -11,9 +11,9 @@ In this post I'm going to briefly discuss a computationally efficient way to cal
 
 The Sinkhorn's theorem states that every square matrix with positive elements can be transformed into a doubly stochastic matrix $$D_1AD_2$$. Where $$D_1$$ and $$D_2$$ are diagonal matrices with all positive main diagonals. The matrices $$D_1$$ and $$D_2$$ are themselves unique up to a constant factor.
 
-Sounds simple, except the problem that what is a doubly stochastic matrix? Well, a doubly stochastic matrix is a all non-negative square matrix that is both row-normalized and column-normalized. To speak about this mathematically for a non-negative square matrix $$A \in \mathcal{R}^{N \times N}$$, $$\sum_{i = 1}^{N} a_{ij} = 1, \forall j \in [1, N]$$. Also, $$\sum_{j = 1}^{N} a_{ij} = 1, \forall i \in [1, N]$$.
+Sounds simple, except the problem that what is a doubly stochastic matrix? Well, a doubly stochastic matrix is an all non-negative square matrix that is both row-normalized and column-normalized. To speak about this mathematically for a non-negative square matrix $$A \in \mathcal{R}^{N \times N}$$, $$\sum_{i = 1}^{N} a_{ij} = 1, \forall j \in [1, N]$$. Also, $$\sum_{j = 1}^{N} a_{ij} = 1, \forall i \in [1, N]$$.
 
-Notice that to apply the Sinkhorn's theorem, we need to make sure that first, the matrix is a square matrix, and second, the matrix should be contain no negative element. As we should see later in this post, this property is satisfied by many of the problem that can be actually framed into calculating a corresponding doubly stochastic matrix. A set of non-negative integers summing into one has many direct interpretations that makes Sinkhorn's algorithm very powerful, like for
+Notice that to apply the Sinkhorn's theorem, we need to make sure that first, the matrix is a square matrix, and second, the matrix should contain no negative element. As we should see later in this post, this property is satisfied by many of the problem that can be actually framed into calculating a corresponding doubly stochastic matrix. A set of non-negative integers summing into one has many direct interpretations that makes Sinkhorn's algorithm very powerful, like for
 exmaple, probabilities, or, as we will see, a soft sorting indices.
 
 What is great about Sinkhorn's theorem is that there is a efficient algorithm to calculate an approximation of this doubly stochastic matrix that has linear convergence. And the algorithm is very simple: one just iteratively normalize the matrix along rows and columns.
@@ -36,7 +36,7 @@ def sinkhorn(A, N, L):
     return A
 ```
 
-It's obvious that the algorithm has a complexity of $$O(N^2)$$ if applied a constant times at every step. Also notice that as we could write normalization as matrix multiplication, Sinkhorn algorithm is fully differentiable.
+It's obvious that the algorithm has a complexity of $$O(N^2)$$ if applied for constant times at every step. Also notice that as we could write normalization as matrix multiplication, Sinkhorn algorithm is fully differentiable.
 
 ## Optimal Transport
 
@@ -99,3 +99,15 @@ Sinkhorn autoencoder reaffirm this kind of autoencoder formulation but with a st
 respectively, and we are all set.
 
 ## Sinkhorn Algorithms for Sorting
+
+Another very interesting application of the Sinkhorn Algorithm is to view the double stochastic matrix as a sorting matrix, with very intuitive meaning associated with rows and columns. We could think of Sinkhorn algorithm as a differentiable mapping from the output of a scoring $$\phi(x)$$ to a soft sorting matrix $$A$$, where $$A_{i\cdot}$$ can be viewed as the probability of instance $$x_i$$ landing at each possible ranking, and the column $$A_{\cdotj}$$ can be viewed as a selection
+probability distribution of each position $$j$$.
+
+But why is this transformation to a soft sorting useful? One important use case is in reranking system, where the evaluation metrics are defined according to a sequence. Previously when training ranking system, people normally use maximum likelihood objective to maximize the probablity of selecting each individual documents. This is a misalignemnt with the evaluation objective. Evaluation objectives like p@k, are defined according to sequnce:
+
+$$
+    \mathcal{L}_{p@k}(s;r) = \frac{1}{K} \sum_{i = 1}^{K} r_{s[k]}
+$$
+
+However, normal hard ranking is not back-propagatable, and there is where Sinkhorn algorithm comes to the rescue. Notice that though p@k is defined against each ranking, the score can be decomposed into position-wise loss, which are characterized by element sums over the associated permuation matrix $$S$$. By Berkoff's theorem, the doubly stochastic matrix can always be decomposed into a convex combination of permutation matrx, and because each row /column sum to one, each row can be
+viewed as a marginal probability of the probability of item $$x_i$$ having rank $$j$$, which allows us to back-propagate from a soft version of the correct evaluation matrix.
