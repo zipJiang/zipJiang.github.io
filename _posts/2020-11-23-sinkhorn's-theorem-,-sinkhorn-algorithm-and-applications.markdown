@@ -100,7 +100,7 @@ respectively, and we are all set.
 
 ## Sinkhorn Algorithms for Sorting
 
-Another very interesting application of the Sinkhorn Algorithm is to view the double stochastic matrix as a sorting matrix, with very intuitive meaning associated with rows and columns. We could think of Sinkhorn algorithm as a differentiable mapping from the output of a scoring $$\phi(x)$$ to a soft sorting matrix $$A$$, where $$A_{i\cdot}$$ can be viewed as the probability of instance $$x_i$$ landing at each possible ranking, and the column $$A_{\cdotj}$$ can be viewed as a selection
+Another very interesting application of the Sinkhorn Algorithm is to view the double stochastic matrix as a sorting matrix, with very intuitive meaning associated with rows and columns. We could think of Sinkhorn algorithm as a differentiable mapping from the output of a scoring $$\phi(x)$$ to a soft sorting matrix $$A$$, where $$A_{i\cdot}$$ can be viewed as the probability of instance $$x_i$$ landing at each possible ranking, and the column $$A_{\cdot j}$$ can be viewed as a selection
 probability distribution of each position $$j$$.
 
 But why is this transformation to a soft sorting useful? One important use case is in reranking system, where the evaluation metrics are defined according to a sequence. Previously when training ranking system, people normally use maximum likelihood objective to maximize the probablity of selecting each individual documents. This is a misalignemnt with the evaluation objective. Evaluation objectives like p@k, are defined according to sequnce:
