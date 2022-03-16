@@ -4,7 +4,7 @@ layout: default
 
 ## About me
 
-I'm a master student at Columbia University majoring in computer science, expected to graduate December 2020. Before that I got my bachelor's degree in computer science and Chinese language and literature (double major) from Peking University. I'm an NLP enthusiasts, with primary interest in building more controllable and human-like models for prediction/generation with effective supervision. I will be joining JHU CLSP as a PhD student starting from Fall 2021. Please find my full CV [here](https://drive.google.com/file/d/16AaT_9PiCCd9W6bMD_eIzf_E6iCSI202/view?usp=drivesdk).
+I'm a first year PhD student at JHU-CLSP adviced by Prof. [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/). Before that I got my bachelor's degree in computer science and Chinese language and literature (double major) from Peking University and my master's degree in computer science at Columbia University. I'm an NLP enthusiasts, with primary interest in building more calibrated NLP models and utilizing model uncertainty estimation.
 
 ## Research Experience
 
