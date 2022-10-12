@@ -4,7 +4,7 @@ layout: default
 
 ## About me
 
-I'm a first year PhD student at JHU-CLSP adviced by Prof. [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/). Before that I got my bachelor's degree in computer science and Chinese language and literature (double major) from Peking University and my master's degree in computer science at Columbia University. I'm an NLP enthusiasts, with primary interest in building more calibrated NLP models and utilizing model uncertainty estimation.
+I'm a 2nd year PhD student at JHU-CLSP adviced by Prof. [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/)and [Anqi Liu](https://anqiliu-ai.github.io/). Before that I got my bachelor's degree in computer science and Chinese language and literature (double major) from Peking University and my master's degree in computer science at Columbia University. I'm an NLP enthusiasts, with primary interest in building more calibrated NLP models and utilizing model uncertainty estimation.
 
 ## Research Experience
 
@@ -16,6 +16,8 @@ I'm a first year PhD student at JHU-CLSP adviced by Prof. [Benjamin Van Durme](h
 - **Research Intern**, Nat. Key Laboratory of Machine Perception, Peking University, _Advisor: Prof. Zhi-Hong Deng_ (Apr. 2017, Jul. 2019)
 
 ## Publications
+
+- Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Calibrating Zero-shot Cross-lingual (Un-)structured Predictions** (To appear)_EMNLP 2022_
 
 - Zhengping Jiang, Jonathan Zomick, Sarah Ita Levitan, Mark Serper, Julia Hirschberg. **Automatic Detection and Prediction of Psychiatric Hospitalizations From Social Media Posts**, _CLPsych2021, NAACL_ \[[paper](https://aclanthology.org/2021.clpsych-1.14.pdf)\]
 - David Wan, Chris Kedzie, Faisal Ladhak, Elsbeth Turcan, Petra Galuščáková, Elena Zotkina, Zhengping Jiang, Peter Bell, Kathleen McKeown. **Segmenting Subtitles for Correcting ASR Segmentation Errors**, _EACL2021_ \[[paper](https://arxiv.org/pdf/2104.07868.pdf)\]
