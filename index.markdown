@@ -4,7 +4,7 @@ layout: default
 
 ## About me
 
-I'm a 2nd year PhD student at JHU-CLSP adviced by Prof. [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/)and [Anqi Liu](https://anqiliu-ai.github.io/). Before that I got my bachelor's degree in computer science and Chinese language and literature (double major) from Peking University and my master's degree in computer science at Columbia University. I'm an NLP enthusiasts, with primary interest in building more calibrated NLP models and utilizing model uncertainty estimation.
+I'm a 2nd year PhD student at JHU-CLSP adviced by Prof. [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/) and [Anqi Liu](https://anqiliu-ai.github.io/). Before that I got my bachelor's degree in computer science and Chinese language and literature (double major) from Peking University and my master's degree in computer science at Columbia University. I'm an NLP enthusiasts, with primary interest in building more calibrated NLP models and utilizing model uncertainty estimation.
 
 ## Research Experience
 
