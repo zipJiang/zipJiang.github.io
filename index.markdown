@@ -17,7 +17,7 @@ I'm a 2nd year PhD student at JHU-CLSP advised by Prof. [Benjamin Van Durme](htt
 
 ## Publications
 
-- Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Calibrating Zero-shot Cross-lingual (Un-)structured Predictions** (To appear)_EMNLP 2022_
+- Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Calibrating Zero-shot Cross-lingual (Un-)structured Predictions**, _EMNLP 2022_, \[[paper](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.170.pdf)\]
 
 - Zhengping Jiang, Jonathan Zomick, Sarah Ita Levitan, Mark Serper, Julia Hirschberg. **Automatic Detection and Prediction of Psychiatric Hospitalizations From Social Media Posts**, _CLPsych2021, NAACL_ \[[paper](https://aclanthology.org/2021.clpsych-1.14.pdf)\]
 - David Wan, Chris Kedzie, Faisal Ladhak, Elsbeth Turcan, Petra Galuščáková, Elena Zotkina, Zhengping Jiang, Peter Bell, Kathleen McKeown. **Segmenting Subtitles for Correcting ASR Segmentation Errors**, _EACL2021_ \[[paper](https://arxiv.org/pdf/2104.07868.pdf)\]
