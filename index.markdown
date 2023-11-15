@@ -4,11 +4,12 @@ layout: default
 
 ## About me
 
-I'm a 2nd year PhD student at JHU-CLSP advised by Prof. [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/) and [Anqi Liu](https://anqiliu-ai.github.io/). Before that I got my bachelor's degree in computer science and Chinese language and literature (double major) from Peking University and my master's degree in computer science at Columbia University. I'm an NLP enthusiasts, with primary interest in building more calibrated NLP models and utilizing model uncertainty estimation.
+I'm a 3rd year PhD student at JHU-CLSP advised by Prof. [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/) and [Anqi Liu](https://anqiliu-ai.github.io/). Before that I got my bachelor's degree in computer science and Chinese language and literature (double major) from Peking University and my master's degree in computer science at Columbia University. I'm an NLP enthusiasts, with primary interest in building more calibrated NLP models and utilizing model uncertainty estimation.
 
 ## Research Experience
 
-- **Cognitive Developer Intern**, IBM Watson Group, _Advisor: Saloni Potdar, Pan Lin_ (May. 2021 - Aug. 2021)
+- **Applied Scientist Intern**, Amazon Alexa AI, _Mentor: Nieu Nguyen, Rupak Vignesh Swaminathan, Yi Xie_ (May. 2023 - Aug. 2023)
+- **Cognitive Developer Intern**, IBM Watson Group, _Mentor: Saloni Potdar, Pan Lin_ (May. 2021 - Aug. 2021)
 - **Graduate Research Assistant**, Data Science Institute, Columbia University, _Advisor: Prof. Smaranda Muresan_ (Jun. 2020 - Apr. 2021)
 - **Graduate Research Assistant**, Natural Language Processing Lab, Columbia University, _Advisor: Prof. Kathleen McKeown_ (Sept. 2019 - Jan. 2021)
 - **Research Assistant**, Natural Language Processing Lab, Columbia University, _Advisor: Prof. Julia Hirschberg_ (Sept. 2019 - Apr. 2021)
@@ -16,6 +17,10 @@ I'm a 2nd year PhD student at JHU-CLSP advised by Prof. [Benjamin Van Durme](htt
 - **Research Intern**, Nat. Key Laboratory of Machine Perception, Peking University, _Advisor: Prof. Zhi-Hong Deng_ (Apr. 2017, Jul. 2019)
 
 ## Publications
+
+- [TO APPEAR] Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Addressing the Binning Problem in Calibration Assessment through Scalar Annotation**, __TACL__
+
+- Samuel Barham, Orion Weller, Michelle Yuan, Kenton Murray, Mahsa Yarmohammadi, Zhengping Jiang, Siddharth Vashishtha, Alexander Martin, Anqi Liu, Aaron Steven White, Jordan Boyd-Graber, Benjamin Van Durme, **MegaWika: Millions of reports and their sources across 50 diverse languages**, \[[paper](https://arxiv.org/pdf/2307.07049.pdf)\]
 
 - Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Calibrating Zero-shot Cross-lingual (Un-)structured Predictions**, _EMNLP 2022_, \[[paper](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.170.pdf)\]
 
