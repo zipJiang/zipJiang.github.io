@@ -24,7 +24,7 @@ I'm a 3rd year PhD student at JHU-CLSP advised by Prof. [Benjamin Van Durme](htt
 
 - Nathaniel Weir, Kate Sanders, Orion Weller, Shreya Sharma, Dongwei Jiang, Zhengping Zhang, Bhavana Dalvi Mishra, Oyvind Tafjord, Peter Jansen, Peter Clark, Benjamin Van Durme. **Enhancing systematic decompositional natural language inference using informal logic**, \[[paper](https://arxiv.org/pdf/2402.14798)\]
 
-- Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Addressing the Binning Problem in Calibration Assessment through Scalar Annotation**, __TACL2024__
+- Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Addressing the Binning Problem in Calibration Assessment through Scalar Annotation**, __TACL2024__, \[[paper](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00636/119541/Addressing-the-Binning-Problem-in-Calibration)\]
 
 - Samuel Barham, Orion Weller, Michelle Yuan, Kenton Murray, Mahsa Yarmohammadi, Zhengping Jiang, Siddharth Vashishtha, Alexander Martin, Anqi Liu, Aaron Steven White, Jordan Boyd-Graber, Benjamin Van Durme, **MegaWika: Millions of reports and their sources across 50 diverse languages**, \[[paper](https://arxiv.org/pdf/2307.07049.pdf)\]
 
