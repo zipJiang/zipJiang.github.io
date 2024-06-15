@@ -18,17 +18,17 @@ I'm a 3rd year PhD student at JHU-CLSP advised by Prof. [Benjamin Van Durme](htt
 
 ## Publications
 
-- Zhengping Jiang\*, Yining Lu\*, Hanjie Chen, Daniel Khashabi, Benjamin Van Durme, Anqi Liu. **RORA: Robust Free-Text Rationale Evaluation**, __ACL2024__, \[[paper](https://arxiv.org/pdf/2402.18678)\]
+- Zhengping Jiang\*, Yining Lu\*, Hanjie Chen, Daniel Khashabi, Benjamin Van Durme, Anqi Liu. **RORA: Robust Free-Text Rationale Evaluation**, _ACL2024_ \[[paper](https://arxiv.org/pdf/2402.18678)\]
 
-- Miriam Wanner\*, Seth Ebner\*, Zhengping Jiang, Mark Dredze, Benjamin Van Durme. A Closer Look at Claim Decomposition, __\*SEM2024__, \[[paper](https://arxiv.org/pdf/2403.11903)\]
+- Miriam Wanner\*, Seth Ebner\*, Zhengping Jiang, Mark Dredze, Benjamin Van Durme. A Closer Look at Claim Decomposition, _\*SEM2024_ \[[paper](https://arxiv.org/pdf/2403.11903)\]
 
-- Nathaniel Weir, Kate Sanders, Orion Weller, Shreya Sharma, Dongwei Jiang, Zhengping Zhang, Bhavana Dalvi Mishra, Oyvind Tafjord, Peter Jansen, Peter Clark, Benjamin Van Durme. **Enhancing systematic decompositional natural language inference using informal logic**, \[[paper](https://arxiv.org/pdf/2402.14798)\]
+- Nathaniel Weir, Kate Sanders, Orion Weller, Shreya Sharma, Dongwei Jiang, Zhengping Zhang, Bhavana Dalvi Mishra, Oyvind Tafjord, Peter Jansen, Peter Clark, Benjamin Van Durme. **Enhancing systematic decompositional natural language inference using informal logic** \[[paper](https://arxiv.org/pdf/2402.14798)\]
 
-- Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Addressing the Binning Problem in Calibration Assessment through Scalar Annotation**, __TACL2024__, \[[paper](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00636/119541/Addressing-the-Binning-Problem-in-Calibration)\]
+- Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Addressing the Binning Problem in Calibration Assessment through Scalar Annotation**, _TACL2024_ \[[paper](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00636/119541/Addressing-the-Binning-Problem-in-Calibration)\]
 
-- Samuel Barham, Orion Weller, Michelle Yuan, Kenton Murray, Mahsa Yarmohammadi, Zhengping Jiang, Siddharth Vashishtha, Alexander Martin, Anqi Liu, Aaron Steven White, Jordan Boyd-Graber, Benjamin Van Durme, **MegaWika: Millions of reports and their sources across 50 diverse languages**, \[[paper](https://arxiv.org/pdf/2307.07049.pdf)\]
+- Samuel Barham, Orion Weller, Michelle Yuan, Kenton Murray, Mahsa Yarmohammadi, Zhengping Jiang, Siddharth Vashishtha, Alexander Martin, Anqi Liu, Aaron Steven White, Jordan Boyd-Graber, Benjamin Van Durme, **MegaWika: Millions of reports and their sources across 50 diverse languages** \[[paper](https://arxiv.org/pdf/2307.07049.pdf)\]
 
-- Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Calibrating Zero-shot Cross-lingual (Un-)structured Predictions**, _EMNLP 2022_, \[[paper](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.170.pdf)\]\[[code](https://github.com/zipJiang/cross-lingual-calibration)\]
+- Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Calibrating Zero-shot Cross-lingual (Un-)structured Predictions**, _EMNLP 2022_ \[[paper](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.170.pdf)\]\[[code](https://github.com/zipJiang/cross-lingual-calibration)\]
 
 - Zhengping Jiang, Jonathan Zomick, Sarah Ita Levitan, Mark Serper, Julia Hirschberg. **Automatic Detection and Prediction of Psychiatric Hospitalizations From Social Media Posts**, _CLPsych2021, NAACL_ \[[paper](https://aclanthology.org/2021.clpsych-1.14.pdf)\]
 - David Wan, Chris Kedzie, Faisal Ladhak, Elsbeth Turcan, Petra Galuščáková, Elena Zotkina, Zhengping Jiang, Peter Bell, Kathleen McKeown. **Segmenting Subtitles for Correcting ASR Segmentation Errors**, _EACL2021_ \[[paper](https://arxiv.org/pdf/2104.07868.pdf)\]
