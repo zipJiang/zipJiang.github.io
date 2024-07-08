@@ -20,7 +20,7 @@ I'm a 3rd year PhD student at JHU-CLSP advised by Prof. [Benjamin Van Durme](htt
 
 - Zhengping Jiang\*, Yining Lu\*, Hanjie Chen, Daniel Khashabi, Benjamin Van Durme, Anqi Liu. **RORA: Robust Free-Text Rationale Evaluation**, _ACL2024_ \[[paper](https://arxiv.org/pdf/2402.18678)\]
 
-- Miriam Wanner\*, Seth Ebner\*, Zhengping Jiang, Mark Dredze, Benjamin Van Durme. A Closer Look at Claim Decomposition, _\*SEM2024_ \[[paper](https://arxiv.org/pdf/2403.11903)\]
+- Miriam Wanner\*, Seth Ebner\*, Zhengping Jiang, Mark Dredze, Benjamin Van Durme. **A Closer Look at Claim Decomposition**, _\*SEM2024_ \[[paper](https://arxiv.org/pdf/2403.11903)\]
 
 - Nathaniel Weir, Kate Sanders, Orion Weller, Shreya Sharma, Dongwei Jiang, Zhengping Zhang, Bhavana Dalvi Mishra, Oyvind Tafjord, Peter Jansen, Peter Clark, Benjamin Van Durme. **Enhancing systematic decompositional natural language inference using informal logic** \[[paper](https://arxiv.org/pdf/2402.14798)\]
 
