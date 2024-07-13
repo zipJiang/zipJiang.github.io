@@ -18,7 +18,7 @@ I'm a 3rd year PhD student at JHU-CLSP advised by Prof. [Benjamin Van Durme](htt
 
 ## Publications
 
-- Zhengping Jiang\*, Yining Lu\*, Hanjie Chen, Daniel Khashabi, Benjamin Van Durme, Anqi Liu. **RORA: Robust Free-Text Rationale Evaluation**, _ACL2024_ \[[paper](https://arxiv.org/pdf/2402.18678)\]
+- Zhengping Jiang\*, Yining Lu\*, Hanjie Chen, Daniel Khashabi, Benjamin Van Durme, Anqi Liu. **RORA: Robust Free-Text Rationale Evaluation**, _ACL2024_ \[[paper](https://arxiv.org/pdf/2402.18678)\]\[[code](https://github.com/zipJiang/RORA)\]
 
 - Miriam Wanner\*, Seth Ebner\*, Zhengping Jiang, Mark Dredze, Benjamin Van Durme. **A Closer Look at Claim Decomposition**, _\*SEM2024_ \[[paper](https://arxiv.org/pdf/2403.11903)\]
 
