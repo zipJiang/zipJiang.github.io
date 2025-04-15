@@ -4,10 +4,11 @@ layout: default
 
 ## About me
 
-I'm a 3rd year PhD student at JHU-CLSP advised by Prof. [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/) and [Anqi Liu](https://anqiliu-ai.github.io/). Before that I got my bachelor's degree in computer science and Chinese language and literature (double major) from Peking University and my master's degree in computer science at Columbia University. I'm an NLP enthusiasts, with primary interest in building more calibrated NLP models and utilizing model uncertainty estimation.
+I'm a 4th year PhD student at JHU-CLSP advised by Prof. [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/) and [Anqi Liu](https://anqiliu-ai.github.io/). Before that I got my bachelor's degree in computer science and Chinese language and literature (double major) from Peking University and my master's degree in computer science at Columbia University. I'm an NLP enthusiasts, with primary interest in building more calibrated NLP models and utilizing model uncertainty estimation.
 
 ## Research Experience
-
+- **(Incoming) Research Intern**, Meta GenAI, _Mentor: Li Chen_ (Jul. 2025 - Nov. 2025)
+- **(Incoming) Research Intern**, Microsoft Research, _Mentor: Gonzalo Ramos_ (Apr. 2025 - Jul. 2025)
 - **Applied Scientist Intern**, Amazon Alexa AI, _Mentor: Nieu Nguyen, Rupak Vignesh Swaminathan, Yi Xie_ (May. 2023 - Aug. 2023)
 - **Cognitive Developer Intern**, IBM Watson Group, _Mentor: Saloni Potdar, Pan Lin_ (May. 2021 - Aug. 2021)
 - **Graduate Research Assistant**, Data Science Institute, Columbia University, _Advisor: Prof. Smaranda Muresan_ (Jun. 2020 - Apr. 2021)
@@ -17,6 +18,12 @@ I'm a 3rd year PhD student at JHU-CLSP advised by Prof. [Benjamin Van Durme](htt
 - **Research Intern**, Nat. Key Laboratory of Machine Perception, Peking University, _Advisor: Prof. Zhi-Hong Deng_ (Apr. 2017, Jul. 2019)
 
 ## Publications
+
+- Jiefu Ou, William Gantt Walden, Kate Sanders, Zhengping Jiang, Kaiser Sun, Jeffrey Cheng, William Jurayj, Miriam Wanner, Shaobo Liang, Candice Morgan, Seunghoon Han, Weiqi Wang, Chandler May, Hannah Recknor, Daniel Khashabi, Benjamin Van Durme. **ClaimCheck: How Grounded are LLM Critiques of Scientific Papers?**, \[[preprint](https://arxiv.org/pdf/2503.21717)\]
+
+- Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Conformal Linguistic Calibration: Trading-off between Factuality and Specificity**, \[[preprint](https://arxiv.org/pdf/2502.19110)\]
+
+- Zhengping Jiang, Jingyu Zhang, Nathaniel Weir, Seth Ebner, Miriam Wanner, Kate Sanders, Daniel Khashabi, Anqi Liu, Benjamin Van Durme. **Core: Robust Factual Precision with Informative Sub-Claim Identification**, \[[preprint](https://arxiv.org/pdf/2407.03572)\]
 
 - Zhengping Jiang\*, Yining Lu\*, Hanjie Chen, Daniel Khashabi, Benjamin Van Durme, Anqi Liu. **RORA: Robust Free-Text Rationale Evaluation**, _ACL2024_ \[[paper](https://arxiv.org/pdf/2402.18678)\]\[[code](https://github.com/zipJiang/RORA)\]
 
