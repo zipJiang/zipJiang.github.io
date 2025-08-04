@@ -23,7 +23,7 @@ I'm a 4th year PhD student at JHU-CLSP advised by Prof. [Benjamin Van Durme](htt
 
 - Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Conformal Linguistic Calibration: Trading-off between Factuality and Specificity**, \[[preprint](https://arxiv.org/pdf/2502.19110)\]
 
-- Zhengping Jiang, Jingyu Zhang, Nathaniel Weir, Seth Ebner, Miriam Wanner, Kate Sanders, Daniel Khashabi, Anqi Liu, Benjamin Van Durme. **Core: Robust Factual Precision with Informative Sub-Claim Identification**, \[[preprint](https://arxiv.org/pdf/2407.03572)\]
+- Zhengping Jiang, Jingyu Zhang, Nathaniel Weir, Seth Ebner, Miriam Wanner, Kate Sanders, Daniel Khashabi, Anqi Liu, Benjamin Van Durme. **Core: Robust Factual Precision with Informative Sub-Claim Identification**, _ACL 2025 Findings_  \[[preprint](https://arxiv.org/pdf/2407.03572)\]
 
 - Zhengping Jiang\*, Yining Lu\*, Hanjie Chen, Daniel Khashabi, Benjamin Van Durme, Anqi Liu. **RORA: Robust Free-Text Rationale Evaluation**, _ACL2024_ \[[paper](https://arxiv.org/pdf/2402.18678)\]\[[code](https://github.com/zipJiang/RORA)\]
 
