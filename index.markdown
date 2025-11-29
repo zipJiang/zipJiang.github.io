@@ -5,10 +5,11 @@ layout: default
 ## About me
 
 I'm a 4th year PhD student at JHU-CLSP advised by Prof. [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/) and [Anqi Liu](https://anqiliu-ai.github.io/). Before that I got my bachelor's degree in computer science and Chinese language and literature (double major) from Peking University and my master's degree in computer science at Columbia University. I'm an NLP enthusiasts, with primary interest in building more calibrated NLP models and utilizing model uncertainty estimation.
+My recent works focus on how uncertainty info improves human-AI communication, as well as how probabilistic feedbacks help in unverifiable domains.
 
 ## Research Experience
-- **(Incoming) Research Intern**, Meta GenAI, _Mentor: Li Chen_ (Jul. 2025 - Nov. 2025)
-- **(Incoming) Research Intern**, Microsoft Research, _Mentor: Gonzalo Ramos_ (Apr. 2025 - Jul. 2025)
+- **Research Intern**, Meta Superintelligence Lab, _Mentor: Li Chen_ (Jul. 2025 - Now)
+- **Research Intern**, Microsoft Research, _Mentor: Gonzalo Ramos, Jina Suh_ (Apr. 2025 - Jul. 2025)
 - **Applied Scientist Intern**, Amazon Alexa AI, _Mentor: Nieu Nguyen, Rupak Vignesh Swaminathan, Yi Xie_ (May. 2023 - Aug. 2023)
 - **Cognitive Developer Intern**, IBM Watson Group, _Mentor: Saloni Potdar, Pan Lin_ (May. 2021 - Aug. 2021)
 - **Graduate Research Assistant**, Data Science Institute, Columbia University, _Advisor: Prof. Smaranda Muresan_ (Jun. 2020 - Apr. 2021)
@@ -19,9 +20,11 @@ I'm a 4th year PhD student at JHU-CLSP advised by Prof. [Benjamin Van Durme](htt
 
 ## Publications
 
-- Jiefu Ou, William Gantt Walden, Kate Sanders, Zhengping Jiang, Kaiser Sun, Jeffrey Cheng, William Jurayj, Miriam Wanner, Shaobo Liang, Candice Morgan, Seunghoon Han, Weiqi Wang, Chandler May, Hannah Recknor, Daniel Khashabi, Benjamin Van Durme. **ClaimCheck: How Grounded are LLM Critiques of Scientific Papers?**, \[[preprint](https://arxiv.org/pdf/2503.21717)\]
+- Jiefu Ou, William Gantt Walden, Kate Sanders, Zhengping Jiang, Kaiser Sun, Jeffrey Cheng, William Jurayj, Miriam Wanner, Shaobo Liang, Candice Morgan, Seunghoon Han, Weiqi Wang, Chandler May, Hannah Recknor, Daniel Khashabi, Benjamin Van Durme. **ClaimCheck: How Grounded are LLM Critiques of Scientific Papers?**, _EMNLP 2025 Findings_ \[[paper](https://aclanthology.org/2025.findings-emnlp.1185.pdf)\]
 
-- Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Conformal Linguistic Calibration: Trading-off between Factuality and Specificity**, \[[preprint](https://arxiv.org/pdf/2502.19110)\]
+- Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Conformal Linguistic Calibration: Trading-off between Factuality and Specificity**, _NeurIPS 2025_ \[[paper](https://neurips.cc/virtual/2025/loc/san-diego/poster/118462)\]
+
+- William Walden, Kathryn Ricci, Miriam Wanner, Zhengping Jiang, Chandler May, Rongkun Zhou, Benjamin Van Durme, **How Grounded is Wikipedia? A Study on Structured Evidential Support**, \[[preprint](https://arxiv.org/abs/2506.12637)\]
 
 - Zhengping Jiang, Jingyu Zhang, Nathaniel Weir, Seth Ebner, Miriam Wanner, Kate Sanders, Daniel Khashabi, Anqi Liu, Benjamin Van Durme. **Core: Robust Factual Precision with Informative Sub-Claim Identification**, _ACL 2025 Findings_  \[[preprint](https://arxiv.org/pdf/2407.03572)\]
 
