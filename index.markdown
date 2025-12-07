@@ -24,7 +24,7 @@ My recent works focus on how uncertainty info improves human-AI communication, a
 
 - Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Conformal Linguistic Calibration: Trading-off between Factuality and Specificity**, _NeurIPS 2025_ \[[paper](https://neurips.cc/virtual/2025/loc/san-diego/poster/118462)\]
 
-- Liaoyaqi Wnag, Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Always Tell Me The Odds: Fine-grained Conditional Probability Estimation**, _COLM 2025_, \[[paper](https://openreview.net/forum?id=xhDcG8qtw9)\]\[[code](https://github.com/zipJiang/decoding-based-regression/tree/main)\]
+- Liaoyaqi Wang, Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Always Tell Me The Odds: Fine-grained Conditional Probability Estimation**, _COLM 2025_, \[[paper](https://openreview.net/forum?id=xhDcG8qtw9)\]\[[code](https://github.com/zipJiang/decoding-based-regression/tree/main)\]
 
 - William Walden, Kathryn Ricci, Miriam Wanner, Zhengping Jiang, Chandler May, Rongkun Zhou, Benjamin Van Durme, **How Grounded is Wikipedia? A Study on Structured Evidential Support**, \[[preprint](https://arxiv.org/abs/2506.12637)\]
 
