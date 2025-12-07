@@ -24,6 +24,8 @@ My recent works focus on how uncertainty info improves human-AI communication, a
 
 - Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Conformal Linguistic Calibration: Trading-off between Factuality and Specificity**, _NeurIPS 2025_ \[[paper](https://neurips.cc/virtual/2025/loc/san-diego/poster/118462)\]
 
+- Liaoyaqi Wnag, Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Always Tell Me The Odds: Fine-grained Conditional Probability Estimation**, _COLM 2025_, \[[paper](https://openreview.net/forum?id=xhDcG8qtw9)\]\[[code](https://github.com/zipJiang/decoding-based-regression/tree/main)\]
+
 - William Walden, Kathryn Ricci, Miriam Wanner, Zhengping Jiang, Chandler May, Rongkun Zhou, Benjamin Van Durme, **How Grounded is Wikipedia? A Study on Structured Evidential Support**, \[[preprint](https://arxiv.org/abs/2506.12637)\]
 
 - Zhengping Jiang, Jingyu Zhang, Nathaniel Weir, Seth Ebner, Miriam Wanner, Kate Sanders, Daniel Khashabi, Anqi Liu, Benjamin Van Durme. **Core: Robust Factual Precision with Informative Sub-Claim Identification**, _ACL 2025 Findings_  \[[preprint](https://arxiv.org/pdf/2407.03572)\]
@@ -32,7 +34,7 @@ My recent works focus on how uncertainty info improves human-AI communication, a
 
 - Miriam Wanner\*, Seth Ebner\*, Zhengping Jiang, Mark Dredze, Benjamin Van Durme. **A Closer Look at Claim Decomposition**, _\*SEM2024_ \[[paper](https://arxiv.org/pdf/2403.11903)\]
 
-- Nathaniel Weir, Kate Sanders, Orion Weller, Shreya Sharma, Dongwei Jiang, Zhengping Zhang, Bhavana Dalvi Mishra, Oyvind Tafjord, Peter Jansen, Peter Clark, Benjamin Van Durme. **Enhancing systematic decompositional natural language inference using informal logic** \[[paper](https://arxiv.org/pdf/2402.14798)\]
+- Nathaniel Weir, Kate Sanders, Orion Weller, Shreya Sharma, Dongwei Jiang, Zhengping Zhang, Bhavana Dalvi Mishra, Oyvind Tafjord, Peter Jansen, Peter Clark, Benjamin Van Durme. **Enhancing systematic decompositional natural language inference using informal logic**, _EMNLP 2024_ \[[paper](https://arxiv.org/pdf/2402.14798)\]
 
 - Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Addressing the Binning Problem in Calibration Assessment through Scalar Annotation**, _TACL2024_ \[[paper](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00636/119541/Addressing-the-Binning-Problem-in-Calibration)\]
 
