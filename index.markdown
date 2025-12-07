@@ -28,7 +28,7 @@ My recent works focus on how uncertainty info improves human-AI communication, a
 
 - William Walden, Kathryn Ricci, Miriam Wanner, Zhengping Jiang, Chandler May, Rongkun Zhou, Benjamin Van Durme, **How Grounded is Wikipedia? A Study on Structured Evidential Support**, \[[preprint](https://arxiv.org/abs/2506.12637)\]
 
-- Zhengping Jiang, Jingyu Zhang, Nathaniel Weir, Seth Ebner, Miriam Wanner, Kate Sanders, Daniel Khashabi, Anqi Liu, Benjamin Van Durme. **Core: Robust Factual Precision with Informative Sub-Claim Identification**, _ACL 2025 Findings_  \[[preprint](https://arxiv.org/pdf/2407.03572)\]
+- Zhengping Jiang, Jingyu Zhang, Nathaniel Weir, Seth Ebner, Miriam Wanner, Kate Sanders, Daniel Khashabi, Anqi Liu, Benjamin Van Durme. **Core: Robust Factual Precision with Informative Sub-Claim Identification**, _ACL 2025 Findings_  \[[paper](https://arxiv.org/pdf/2407.03572)\]\[[code](https://github.com/zipJiang/Core)\]
 
 - Zhengping Jiang\*, Yining Lu\*, Hanjie Chen, Daniel Khashabi, Benjamin Van Durme, Anqi Liu. **RORA: Robust Free-Text Rationale Evaluation**, _ACL2024_ \[[paper](https://arxiv.org/pdf/2402.18678)\]\[[code](https://github.com/zipJiang/RORA)\]
 
