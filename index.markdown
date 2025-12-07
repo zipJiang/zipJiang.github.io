@@ -43,8 +43,13 @@ My recent works focus on how uncertainty info improves human-AI communication, a
 - Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Calibrating Zero-shot Cross-lingual (Un-)structured Predictions**, _EMNLP 2022_ \[[paper](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.170.pdf)\]\[[code](https://github.com/zipJiang/cross-lingual-calibration)\]
 
 - Zhengping Jiang, Jonathan Zomick, Sarah Ita Levitan, Mark Serper, Julia Hirschberg. **Automatic Detection and Prediction of Psychiatric Hospitalizations From Social Media Posts**, _CLPsych2021, NAACL_ \[[paper](https://aclanthology.org/2021.clpsych-1.14.pdf)\]
+
 - David Wan, Chris Kedzie, Faisal Ladhak, Elsbeth Turcan, Petra Galuščáková, Elena Zotkina, Zhengping Jiang, Peter Bell, Kathleen McKeown. **Segmenting Subtitles for Correcting ASR Segmentation Errors**, _EACL2021_ \[[paper](https://arxiv.org/pdf/2104.07868.pdf)\]
+
 - Zhengping Jiang, Sarah Ita Levitan, Jonathan Zomick, and Julia Hirschberg. **Detection of mental health conditions from reddit via deep contextualized representations**. _LOUHI2020, EMNLP_ \[[paper](https://www.aclweb.org/anthology/2020.louhi-1.16.pdf)\]
+
 - David Wan, Zhengping Jiang, Chris Kedzie, Elsbeth Turcan, Peter Bell, and Kathy McKeown. **Subtitles to segmentation: Improving low-resource speech-to-TextTranslation pipelines**. _CLSST2020_ \[[paper](https://www.aclweb.org/anthology/2020.clssts-1.11.pdf)\]
+
 - Tongfei Chen\*, Zhengping Jiang\*, Adam Poliak, Keisuke Sakaguchi, and Benjamin Van Durme. **Uncertain natural language inference**. _ACL2020_ \[[paper](https://www.aclweb.org/anthology/2020.acl-main.774.pdf)\]\[[code](https://nlp.jhu.edu/unli/)\]
+
 - Zhengping Jiang and Qi Sun. **CSReader at SemEval-2018 task 11: Multiple choice question answering as textual entailment**. _SemEval2018_ \[[paper](https://www.aclweb.org/anthology/S18-1176.pdf)\]
