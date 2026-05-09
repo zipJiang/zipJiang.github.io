@@ -20,6 +20,8 @@ My recent works focus on how uncertainty info improves human-AI communication, a
 
 ## Publications
 
+- Zhengping Jiang, Mehran Khodabandeh, Akash Bharadwaj, Manik Bhandari, Mayur Srungarapu, Anqi Liu, Benjamin Van Durme, Li Chen. **Configurable Reward Model for Balanced Safety Alignment**, _ICML 2026_, _PDF forthcoming_
+
 - Jiefu Ou, William Gantt Walden, Kate Sanders, Zhengping Jiang, Kaiser Sun, Jeffrey Cheng, William Jurayj, Miriam Wanner, Shaobo Liang, Candice Morgan, Seunghoon Han, Weiqi Wang, Chandler May, Hannah Recknor, Daniel Khashabi, Benjamin Van Durme. **ClaimCheck: How Grounded are LLM Critiques of Scientific Papers?**, _EMNLP 2025 Findings_ \[[paper](https://aclanthology.org/2025.findings-emnlp.1185.pdf)\]
 
 - Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Conformal Linguistic Calibration: Trading-off between Factuality and Specificity**, _NeurIPS 2025_ \[[paper](https://neurips.cc/virtual/2025/loc/san-diego/poster/118462)\]
