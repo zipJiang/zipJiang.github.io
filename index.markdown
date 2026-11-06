@@ -21,7 +21,7 @@ My research uses probabilistic evaluation to identify where language models fail
 
 ## Publications
 
-- Zhengping Jiang, William Jurayj, Liaoyaqi Wang, Chunsheng Zuo, Anqi Liu, Benjamin Van Durme. **FOCUS: Active Critic Learning for Long-Horizon Language Model Agents**, _Preprint, 2026_ \[[paper](https://arxiv.org/abs/2610.35801)\]
+- Zhengping Jiang, William Jurayj, Liaoyaqi Wang, Chunsheng Zuo, Anqi Liu, Benjamin Van Durme. **FOCUS: Active Critic Learning for Long-Horizon Language Model Agents**, _Preprint, 2026_ \[[paper](https://arxiv.org/abs/2610.35801)\]\[[code](https://github.com/zipJiang/FOCUS)\]
 
 - Zhengping Jiang, Gonzalo Ramos, Jina Suh, Shiqian Rachel Ng, Elias Stengel-Eskin, Justin Svegliato, Benjamin Van Durme, Andy Huntington, Sam Thomson. **FrankenReport: Early Exiting in Long-Form Generation Using Expected Value of Computation**, _EMNLP 2026_ \[[paper](https://aclanthology.org/2026.emnlp-main.2548/)\]
 
