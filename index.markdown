@@ -9,7 +9,7 @@ I'm a 5th year PhD student at JHU-CLSP advised by Prof. [Benjamin Van Durme](htt
 My research uses probabilistic evaluation to identify where language models fail and guide post-training. My work spans robust rationale evaluation, linguistic calibration, and methods that use uncertainty to improve credit assignment and compute allocation for long-horizon agents.
 
 ## Research Experience
-- **Research Intern**, Meta Superintelligence Lab, _Mentor: Li Chen_ (Jul. 2025 - Now)
+- **Research Intern**, Meta Superintelligence Lab, _Mentor: Li Chen_ (Aug. 2025 - Feb. 2026)
 - **Research Intern**, Microsoft Research, _Mentor: Gonzalo Ramos, Jina Suh_ (Apr. 2025 - Jul. 2025)
 - **Applied Scientist Intern**, Amazon Alexa AI, _Mentor: Nieu Nguyen, Rupak Vignesh Swaminathan, Yi Xie_ (May. 2023 - Aug. 2023)
 - **Cognitive Developer Intern**, IBM Watson Group, _Mentor: Saloni Potdar, Pan Lin_ (May. 2021 - Aug. 2021)
