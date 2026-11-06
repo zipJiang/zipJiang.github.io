@@ -4,8 +4,9 @@ layout: default
 
 ## About me
 
-I'm a 5th year PhD student at JHU-CLSP advised by Prof. [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/) and [Anqi Liu](https://anqiliu-ai.github.io/). Before that I got my bachelor's degree in computer science and Chinese language and literature (double major) from Peking University and my master's degree in computer science at Columbia University. I'm an NLP enthusiasts, with primary interest in building more calibrated NLP models and utilizing model uncertainty estimation.
-My recent works focus on how uncertainty info improves human-AI communication, as well as how probabilistic feedbacks help in unverifiable domains.
+I'm a 5th year PhD student at JHU-CLSP advised by Prof. [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/) and [Anqi Liu](https://anqiliu-ai.github.io/). Before that I got my bachelor's degree in computer science and Chinese language and literature (double major) from Peking University and my master's degree in computer science at Columbia University.
+
+My research focuses on post-training and uncertainty quantification for language models, with an emphasis on factuality, reliability, and compute efficiency. My recent work includes [FOCUS](https://arxiv.org/abs/2610.35801), which improves credit assignment for long-horizon agents by actively selecting rollouts to refine critic estimates, and [FrankenReport](https://aclanthology.org/2026.emnlp-main.2548/), which uses the expected value of additional computation to decide when to stop refining sections of a long-form report.
 
 ## Research Experience
 - **Research Intern**, Meta Superintelligence Lab, _Mentor: Li Chen_ (Jul. 2025 - Now)
@@ -19,6 +20,10 @@ My recent works focus on how uncertainty info improves human-AI communication, a
 - **Research Intern**, Nat. Key Laboratory of Machine Perception, Peking University, _Advisor: Prof. Zhi-Hong Deng_ (Apr. 2017, Jul. 2019)
 
 ## Publications
+
+- Zhengping Jiang, William Jurayj, Liaoyaqi Wang, Chunsheng Zuo, Anqi Liu, Benjamin Van Durme. **FOCUS: Active Critic Learning for Long-Horizon Language Model Agents**, _Preprint, 2026_ \[[paper](https://arxiv.org/abs/2610.35801)\]
+
+- Zhengping Jiang, Gonzalo Ramos, Jina Suh, Shiqian Rachel Ng, Elias Stengel-Eskin, Justin Svegliato, Benjamin Van Durme, Andy Huntington, Sam Thomson. **FrankenReport: Early Exiting in Long-Form Generation Using Expected Value of Computation**, _EMNLP 2026_ \[[paper](https://aclanthology.org/2026.emnlp-main.2548/)\]
 
 - Zhengping Jiang, Mehran Khodabandeh, Akash Bharadwaj, Manik Bhandari, Mayur Srungarapu, Anqi Liu, Benjamin Van Durme, Li Chen. **Configurable Reward Model for Balanced Safety Alignment**, _ICML 2026_, _PDF forthcoming_
 
