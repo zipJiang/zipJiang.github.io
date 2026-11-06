@@ -6,7 +6,7 @@ layout: default
 
 I'm a 5th year PhD student at JHU-CLSP advised by Prof. [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/) and [Anqi Liu](https://anqiliu-ai.github.io/). Before that I got my bachelor's degree in computer science and Chinese language and literature (double major) from Peking University and my master's degree in computer science at Columbia University.
 
-My research uses probabilistic evaluation to identify where language models fail and guide post-training. My work spans robust rationale evaluation, linguistic calibration, and methods that use uncertainty to improve credit assignment and compute allocation for long-horizon agents.
+My research focuses on developing and training language models that respond reliably under uncertainty and incomplete information. I use probabilistic evaluation to robustly identify model failures and guide post-training. My work spans robust rationale evaluation, linguistic calibration, and methods that use uncertainty to improve credit assignment and compute allocation for long-horizon agents.
 
 ## Research Experience
 - **Research Intern**, Meta Superintelligence Lab, _Mentor: Li Chen_ (Aug. 2025 - Feb. 2026)
