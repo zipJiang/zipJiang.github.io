@@ -27,13 +27,13 @@ My research uses probabilistic evaluation to identify where language models fail
 
 - Zhengping Jiang, Mehran Khodabandeh, Akash Bharadwaj, Manik Bhandari, Mayur Srungarapu, Anqi Liu, Benjamin Van Durme, Li Chen. **Configurable Reward Model for Balanced Safety Alignment**, _ICML 2026_ \[[paper](https://proceedings.mlr.press/v306/jiang26v.html)\]
 
+- William Gantt Walden, Kathryn Ricci, Miriam Wanner, Zhengping Jiang, Chandler May, Rongkun Zhou, Benjamin Van Durme. **How Grounded is Wikipedia? A Study on Structured Evidential Support and Retrieval**, _ACL 2026 Findings_ \[[paper](https://aclanthology.org/2026.findings-acl.19/)\]
+
 - Jiefu Ou, William Gantt Walden, Kate Sanders, Zhengping Jiang, Kaiser Sun, Jeffrey Cheng, William Jurayj, Miriam Wanner, Shaobo Liang, Candice Morgan, Seunghoon Han, Weiqi Wang, Chandler May, Hannah Recknor, Daniel Khashabi, Benjamin Van Durme. **ClaimCheck: How Grounded are LLM Critiques of Scientific Papers?**, _EMNLP 2025 Findings_ \[[paper](https://aclanthology.org/2025.findings-emnlp.1185.pdf)\]
 
-- Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Conformal Linguistic Calibration: Trading-off between Factuality and Specificity**, _NeurIPS 2025_ \[[paper](https://neurips.cc/virtual/2025/loc/san-diego/poster/118462)\]
+- Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Conformal Linguistic Calibration: Trading-off between Factuality and Specificity**, _NeurIPS 2025_ \[[paper](https://neurips.cc/virtual/2025/loc/san-diego/poster/118462)\]\[[code](https://github.com/zipJiang/CLC)\]
 
 - Liaoyaqi Wang, Zhengping Jiang, Anqi Liu, Benjamin Van Durme. **Always Tell Me The Odds: Fine-grained Conditional Probability Estimation**, _COLM 2025_, \[[paper](https://openreview.net/forum?id=xhDcG8qtw9)\]\[[code](https://github.com/zipJiang/decoding-based-regression/tree/main)\]
-
-- William Walden, Kathryn Ricci, Miriam Wanner, Zhengping Jiang, Chandler May, Rongkun Zhou, Benjamin Van Durme, **How Grounded is Wikipedia? A Study on Structured Evidential Support**, \[[preprint](https://arxiv.org/abs/2506.12637)\]
 
 - Zhengping Jiang, Jingyu Zhang, Nathaniel Weir, Seth Ebner, Miriam Wanner, Kate Sanders, Daniel Khashabi, Anqi Liu, Benjamin Van Durme. **Core: Robust Factual Precision with Informative Sub-Claim Identification**, _ACL 2025 Findings_  \[[paper](https://arxiv.org/pdf/2407.03572)\]\[[code](https://github.com/zipJiang/Core)\]
 
