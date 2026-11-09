@@ -1,0 +1,23 @@
+<article class="paper{% unless paper.figure %} text-only{% endunless %}">
+  {% if paper.figure %}
+  <a class="figure" href="{{ paper.figure.file | relative_url }}" target="_blank" rel="noopener" aria-label="Enlarge {{ paper.figure.figure | escape }}">
+    <img src="{{ paper.figure.file | relative_url }}" alt="{{ paper.figure.figure | escape }}" loading="lazy" decoding="async">
+  </a>
+  {% endif %}
+  <div class="paper-copy">
+    <div class="venue">{{ paper.venue | escape }}</div>
+    <h3><a href="{{ paper.url | escape }}">{{ paper.title | escape }}</a></h3>
+    <p class="authors">{{ paper.authors | escape | replace: 'Zhengping Jiang', '<strong>Zhengping Jiang</strong>' }}</p>
+    <p class="tldr">{{ paper.tldr | escape }}</p>
+    <div class="tags">
+      {% for tag in paper.tags %}<span class="tag" data-tag="{{ tag | escape }}">{{ tag | escape }}</span>{% endfor %}
+    </div>
+    <div class="links">
+      <a href="{{ paper.url | escape }}">Paper</a>
+      {% if paper.code %}<a href="{{ paper.code | escape }}">Code</a>{% endif %}
+      {% if paper.doc %}<a href="{{ paper.doc | escape }}">Doc</a>{% endif %}
+      {% if paper.model %}<a href="{{ paper.model | escape }}">Model</a>{% endif %}
+      {% if paper.dataset %}<a href="{{ paper.dataset | escape }}">Dataset</a>{% endif %}
+    </div>
+  </div>
+</article>

@@ -1,0 +1,523 @@
+[
+  {
+    "slug": "focus",
+    "title": "FOCUS: Active Critic Learning for Long-Horizon Language Model Agents",
+    "authors": "Zhengping Jiang, William Jurayj, Liaoyaqi Wang, Chunsheng Zuo, Anqi Liu, Benjamin Van Durme",
+    "venue": "Preprint, 2026",
+    "tags": [
+      "Agentic RL",
+      "Post-training & Alignment"
+    ],
+    "tldr": "Allocate extra rollouts where they are expected to correct the critic most, improving credit assignment for long-horizon agents.",
+    "url": "https://arxiv.org/abs/2610.35801",
+    "code": "https://github.com/zipJiang/FOCUS",
+    "figure": {
+      "slug": "focus",
+      "source": "https://arxiv.org/pdf/2610.35801",
+      "page": 2,
+      "figure": "Figure 1: active rollout scheduling",
+      "crop_normalized": [
+        0.172,
+        0.1,
+        0.827,
+        0.277
+      ],
+      "file": "/assets/images/papers/focus.png"
+    },
+    "doc": "https://zipJiang.github.io/FOCUS/"
+  },
+  {
+    "slug": "frankenreport",
+    "title": "FrankenReport: Early Exiting in Long-Form Generation Using Expected Value of Computation",
+    "authors": "Zhengping Jiang, Gonzalo Ramos, Jina Suh, Shiqian Rachel Ng, Elias Stengel-Eskin, Justin Svegliato, Benjamin Van Durme, Andy Huntington, Sam Thomson",
+    "venue": "EMNLP 2026",
+    "tags": [
+      "Reward Modeling",
+      "Calibration & Risk-control"
+    ],
+    "tldr": "Predict when more research will improve a report section, and allocate computation to the sections that benefit most.",
+    "url": "https://aclanthology.org/2026.emnlp-main.2548/",
+    "code": null,
+    "figure": {
+      "slug": "frankenreport",
+      "source": "https://aclanthology.org/2026.emnlp-main.2548.pdf",
+      "page": 4,
+      "figure": "Figure 2: system overview",
+      "crop_normalized": [
+        0.13,
+        0.084,
+        0.87,
+        0.26
+      ],
+      "file": "/assets/images/papers/frankenreport.png"
+    }
+  },
+  {
+    "slug": "csrm",
+    "title": "Configurable Reward Model for Balanced Safety Alignment",
+    "authors": "Zhengping Jiang, Mehran Khodabandeh, Akash Bharadwaj, Manik Bhandari, Mayur Srungarapu, Anqi Liu, Benjamin Van Durme, Li Chen",
+    "venue": "ICML 2026",
+    "tags": [
+      "Reward Modeling",
+      "Post-training & Alignment",
+      "Safety",
+      "Calibration & Risk-control"
+    ],
+    "tldr": "Train a calibrated reward model that follows changing safety guidelines and guides the balance between helpfulness and safety.",
+    "url": "https://proceedings.mlr.press/v306/jiang26v.html",
+    "code": null,
+    "figure": {
+      "slug": "csrm",
+      "source": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/jiang26v/jiang26v.pdf",
+      "page": 1,
+      "figure": "Figure 1: safety-alignment design space",
+      "crop_normalized": [
+        0.51,
+        0.235,
+        0.895,
+        0.397
+      ],
+      "file": "/assets/images/papers/csrm.png"
+    }
+  },
+  {
+    "slug": "wikipedia",
+    "title": "How Grounded is Wikipedia? A Study on Structured Evidential Support and Retrieval",
+    "authors": "William Gantt Walden, Kathryn Ricci, Miriam Wanner, Zhengping Jiang, Chandler May, Rongkun Zhou, Benjamin Van Durme",
+    "venue": "ACL 2026 Findings",
+    "tags": [
+      "Evaluation",
+      "Semantics"
+    ],
+    "tldr": "Trace Wikipedia claims through article text to cited sources, and evaluate whether retrieval can recover the supporting evidence.",
+    "url": "https://aclanthology.org/2026.findings-acl.19/",
+    "code": null,
+    "figure": {
+      "slug": "wikipedia",
+      "source": "https://aclanthology.org/2026.findings-acl.19.pdf",
+      "page": 1,
+      "figure": "Figure 1: structured evidential support",
+      "crop_normalized": [
+        0.52,
+        0.25,
+        0.89,
+        0.55
+      ],
+      "file": "/assets/images/papers/wikipedia.png"
+    },
+    "dataset": "https://github.com/wgantt/people-profiles"
+  },
+  {
+    "slug": "claimcheck",
+    "title": "ClaimCheck: How Grounded are LLM Critiques of Scientific Papers?",
+    "authors": "Jiefu Ou, William Gantt Walden, Kate Sanders, Zhengping Jiang, Kaiser Sun, Jeffrey Cheng, William Jurayj, Miriam Wanner, Shaobo Liang, Candice Morgan, Seunghoon Han, Weiqi Wang, Chandler May, Hannah Recknor, Daniel Khashabi, Benjamin Van Durme",
+    "venue": "EMNLP 2025 Findings",
+    "tags": [
+      "Evaluation",
+      "Semantics"
+    ],
+    "tldr": "Ground scientific critiques in the specific claims they challenge, then evaluate their validity and specificity.",
+    "url": "https://aclanthology.org/2025.findings-emnlp.1185.pdf",
+    "code": null,
+    "figure": {
+      "slug": "claimcheck",
+      "source": "https://aclanthology.org/2025.findings-emnlp.1185.pdf",
+      "page": 1,
+      "figure": "Figure 1: critique-to-claim grounding",
+      "crop_normalized": [
+        0.515,
+        0.26,
+        0.89,
+        0.505
+      ],
+      "file": "/assets/images/papers/claimcheck.png"
+    },
+    "dataset": "https://github.com/JHU-CLSP/CLAIMCHECK"
+  },
+  {
+    "slug": "clc",
+    "title": "Conformal Linguistic Calibration: Trading-off between Factuality and Specificity",
+    "authors": "Zhengping Jiang, Anqi Liu, Benjamin Van Durme",
+    "venue": "NeurIPS 2025",
+    "tags": [
+      "Calibration & Risk-control",
+      "Post-training & Alignment"
+    ],
+    "tldr": "Express uncertainty by making claims less specific, with conformal control over factuality and learned uncertainty-aware rewriting.",
+    "url": "https://neurips.cc/virtual/2025/loc/san-diego/poster/118462",
+    "code": "https://github.com/zipJiang/CLC",
+    "figure": {
+      "slug": "clc",
+      "source": "https://arxiv.org/pdf/2502.19110",
+      "page": 2,
+      "figure": "Figure 1: communicating uncertainty through specificity",
+      "crop_normalized": [
+        0.53,
+        0.115,
+        0.89,
+        0.316
+      ],
+      "file": "/assets/images/papers/clc.png"
+    }
+  },
+  {
+    "slug": "odds",
+    "title": "Always Tell Me The Odds: Fine-grained Conditional Probability Estimation",
+    "authors": "Liaoyaqi Wang, Zhengping Jiang, Anqi Liu, Benjamin Van Durme",
+    "venue": "COLM 2025",
+    "tags": [
+      "Probabilistic Inference",
+      "Post-training & Alignment"
+    ],
+    "tldr": "Train language models to estimate fine-grained conditional probabilities using human judgments, synthetic data, and ranking supervision.",
+    "url": "https://openreview.net/forum?id=xhDcG8qtw9",
+    "code": "https://github.com/zipJiang/decoding-based-regression/tree/main",
+    "figure": {
+      "slug": "odds",
+      "source": "https://arxiv.org/pdf/2505.01595",
+      "page": 2,
+      "figure": "Figure 1: supervision pipeline",
+      "crop_normalized": [
+        0.172,
+        0.1,
+        0.827,
+        0.35
+      ],
+      "file": "/assets/images/papers/odds.png"
+    },
+    "model": "https://huggingface.co/Zhengping/conditional-probability-regression"
+  },
+  {
+    "slug": "core",
+    "title": "Core: Robust Factual Precision with Informative Sub-Claim Identification",
+    "authors": "Zhengping Jiang, Jingyu Zhang, Nathaniel Weir, Seth Ebner, Miriam Wanner, Kate Sanders, Daniel Khashabi, Anqi Liu, Benjamin Van Durme",
+    "venue": "ACL 2025 Findings",
+    "tags": [
+      "Evaluation"
+    ],
+    "tldr": "Select informative, nonredundant subclaims so factuality scores cannot be inflated by trivial or repeated statements.",
+    "url": "https://arxiv.org/pdf/2407.03572",
+    "code": "https://github.com/zipJiang/Core",
+    "figure": {
+      "slug": "core",
+      "source": "https://arxiv.org/pdf/2407.03572",
+      "page": 4,
+      "figure": "Figure 2: informative and unique subclaim selection",
+      "crop_normalized": [
+        0.12,
+        0.085,
+        0.9,
+        0.277
+      ],
+      "file": "/assets/images/papers/core.png"
+    }
+  },
+  {
+    "slug": "rora",
+    "title": "RORA: Robust Free-Text Rationale Evaluation",
+    "authors": "Zhengping Jiang*, Yining Lu*, Hanjie Chen, Daniel Khashabi, Benjamin Van Durme, Anqi Liu",
+    "venue": "ACL2024",
+    "tags": [
+      "Evaluation"
+    ],
+    "tldr": "Evaluate what a rationale explains beyond the answer itself, while resisting shortcuts caused by label leakage.",
+    "url": "https://arxiv.org/pdf/2402.18678",
+    "code": "https://github.com/zipJiang/RORA",
+    "figure": {
+      "slug": "rora",
+      "source": "https://arxiv.org/pdf/2402.18678",
+      "page": 2,
+      "figure": "Figure 1, method panels: leakage detection and counterfactual editing",
+      "crop_normalized": [
+        0.12,
+        0.085,
+        0.64,
+        0.33
+      ],
+      "file": "/assets/images/papers/rora.png"
+    }
+  },
+  {
+    "slug": "decomposition",
+    "title": "A Closer Look at Claim Decomposition",
+    "authors": "Miriam Wanner*, Seth Ebner*, Zhengping Jiang, Mark Dredze, Benjamin Van Durme",
+    "venue": "*SEM2024",
+    "tags": [
+      "Evaluation",
+      "Semantics"
+    ],
+    "tldr": "Separate errors in claim decomposition from errors in factuality, and assess whether subclaims faithfully represent the original text.",
+    "url": "https://arxiv.org/pdf/2403.11903",
+    "code": "https://github.com/miriamwanner/decompscore",
+    "figure": {
+      "slug": "decomposition",
+      "source": "https://arxiv.org/pdf/2403.11903",
+      "page": 1,
+      "figure": "Figure 1: modes of claim decomposition",
+      "crop_normalized": [
+        0.52,
+        0.255,
+        0.9,
+        0.6
+      ],
+      "file": "/assets/images/papers/decomposition.png"
+    }
+  },
+  {
+    "slug": "rdte",
+    "title": "Enhancing systematic decompositional natural language inference using informal logic",
+    "authors": "Nathaniel Weir, Kate Sanders, Orion Weller, Shreya Sharma, Dongwei Jiang, Zhengping Jiang, Bhavana Dalvi Mishra, Oyvind Tafjord, Peter Jansen, Peter Clark, Benjamin Van Durme",
+    "venue": "EMNLP 2024",
+    "tags": [
+      "Semantics",
+      "Evaluation"
+    ],
+    "tldr": "Use principles from informal logic to judge reasoning steps and construct better-supported entailment trees.",
+    "url": "https://arxiv.org/pdf/2402.14798",
+    "code": null,
+    "figure": {
+      "slug": "rdte",
+      "source": "https://arxiv.org/pdf/2402.14798",
+      "page": 6,
+      "figure": "Figure 4: TreeWise reasoning",
+      "crop_normalized": [
+        0.51,
+        0.08,
+        0.89,
+        0.306
+      ],
+      "file": "/assets/images/papers/rdte.png"
+    }
+  },
+  {
+    "slug": "binning",
+    "title": "Addressing the Binning Problem in Calibration Assessment through Scalar Annotation",
+    "authors": "Zhengping Jiang, Anqi Liu, Benjamin Van Durme",
+    "venue": "TACL2024",
+    "tags": [
+      "Calibration & Risk-control",
+      "Evaluation"
+    ],
+    "tldr": "Assess calibration at the instance level using scalar human judgments, avoiding dependence on arbitrary confidence bins.",
+    "url": "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00636/119541/Addressing-the-Binning-Problem-in-Calibration",
+    "code": null,
+    "figure": {
+      "slug": "binning",
+      "source": "https://aclanthology.org/2024.tacl-1.7.pdf",
+      "page": 5,
+      "figure": "Figure 2: scalar annotation conceptual example",
+      "crop_normalized": [
+        0.12,
+        0.068,
+        0.5,
+        0.277
+      ],
+      "file": "/assets/images/papers/binning.png"
+    }
+  },
+  {
+    "slug": "megawika",
+    "title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+    "authors": "Samuel Barham, Orion Weller, Michelle Yuan, Kenton Murray, Mahsa Yarmohammadi, Zhengping Jiang, Siddharth Vashishtha, Alexander Martin, Anqi Liu, Aaron Steven White, Jordan Boyd-Graber, Benjamin Van Durme",
+    "venue": "2023",
+    "tags": [
+      "Multilingual",
+      "Evaluation"
+    ],
+    "tldr": "Link Wikipedia passages to their sources across 50 languages to support evidence-grounded retrieval and report generation.",
+    "url": "https://arxiv.org/pdf/2307.07049.pdf",
+    "code": null,
+    "figure": {
+      "slug": "megawika",
+      "source": "https://arxiv.org/pdf/2307.07049",
+      "page": 3,
+      "figure": "Figure 1: multilingual collection pipeline",
+      "crop_normalized": [
+        0.172,
+        0.09,
+        0.827,
+        0.26
+      ],
+      "file": "/assets/images/papers/megawika.png"
+    },
+    "dataset": "https://huggingface.co/datasets/hltcoe/megawika"
+  },
+  {
+    "slug": "crosslingual",
+    "title": "Calibrating Zero-shot Cross-lingual (Un-)structured Predictions",
+    "authors": "Zhengping Jiang, Anqi Liu, Benjamin Van Durme",
+    "venue": "EMNLP 2022",
+    "tags": [
+      "Calibration & Risk-control",
+      "Multilingual"
+    ],
+    "tldr": "Study how calibration changes across languages and which recalibration methods transfer across structured and unstructured tasks.",
+    "url": "https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.170.pdf",
+    "code": "https://github.com/zipJiang/cross-lingual-calibration",
+    "figure": {
+      "slug": "crosslingual",
+      "source": "https://aclanthology.org/2022.emnlp-main.170.pdf",
+      "page": 1,
+      "figure": "Figure 1: calibration error before and after temperature scaling",
+      "crop_normalized": [
+        0.525,
+        0.25,
+        0.87,
+        0.49
+      ],
+      "file": "/assets/images/papers/crosslingual.png"
+    }
+  },
+  {
+    "slug": "hospitalization",
+    "title": "Automatic Detection and Prediction of Psychiatric Hospitalizations From Social Media Posts",
+    "authors": "Zhengping Jiang, Jonathan Zomick, Sarah Ita Levitan, Mark Serper, Julia Hirschberg",
+    "venue": "CLPsych2021, NAACL",
+    "tags": [
+      "Mental Health"
+    ],
+    "tldr": "Construct a dataset of self-reported hospitalization periods and study prediction from preceding social-media language.",
+    "url": "https://aclanthology.org/2021.clpsych-1.14.pdf",
+    "code": null,
+    "figure": {
+      "slug": "hospitalization",
+      "source": "https://aclanthology.org/2021.clpsych-1.14.pdf",
+      "page": 4,
+      "figure": "Figure 1: observed activity example, not a model-result plot",
+      "crop_normalized": [
+        0.12,
+        0.085,
+        0.5,
+        0.155
+      ],
+      "file": "/assets/images/papers/hospitalization.png"
+    }
+  },
+  {
+    "slug": "segmenting",
+    "title": "Segmenting Subtitles for Correcting ASR Segmentation Errors",
+    "authors": "David Wan, Chris Kedzie, Faisal Ladhak, Elsbeth Turcan, Petra Galuščáková, Elena Zotkina, Zhengping Jiang, Peter Bell, Kathleen McKeown",
+    "venue": "EACL2021",
+    "tags": [
+      "Multilingual"
+    ],
+    "tldr": "Use subtitles and simulated boundary errors to train models that repair speech-recognition segmentation before translation.",
+    "url": "https://arxiv.org/pdf/2104.07868.pdf",
+    "code": null,
+    "figure": {
+      "slug": "segmenting",
+      "source": "https://arxiv.org/pdf/2104.07868",
+      "page": 3,
+      "figure": "Figure 2: synthetic segmentation example",
+      "crop_normalized": [
+        0.12,
+        0.08,
+        0.9,
+        0.278
+      ],
+      "file": "/assets/images/papers/segmenting.png"
+    }
+  },
+  {
+    "slug": "mentalhealth",
+    "title": "Detection of mental health conditions from reddit via deep contextualized representations",
+    "authors": "Zhengping Jiang, Sarah Ita Levitan, Jonathan Zomick, and Julia Hirschberg",
+    "venue": "LOUHI2020, EMNLP",
+    "tags": [
+      "Mental Health"
+    ],
+    "tldr": "Model Reddit language with contextual representations to study mental-health classification at both post and user levels.",
+    "url": "https://www.aclweb.org/anthology/2020.louhi-1.16.pdf",
+    "code": null,
+    "figure": {
+      "slug": "mentalhealth",
+      "source": "https://aclanthology.org/2020.louhi-1.16.pdf",
+      "page": 5,
+      "figure": "Figure 2: scaled LIWC features across eight diagnostic groups and a control group",
+      "crop_normalized": [
+        0.175,
+        0.09,
+        0.83,
+        0.49
+      ],
+      "file": "/assets/images/papers/mentalhealth.png"
+    }
+  },
+  {
+    "slug": "subtitles",
+    "title": "Subtitles to segmentation: Improving low-resource speech-to-TextTranslation pipelines",
+    "authors": "David Wan, Zhengping Jiang, Chris Kedzie, Elsbeth Turcan, Peter Bell, and Kathy McKeown",
+    "venue": "CLSST2020",
+    "tags": [
+      "Multilingual"
+    ],
+    "tldr": "Learn sentence boundaries from subtitles and noisy syntax to improve low-resource speech translation and retrieval.",
+    "url": "https://www.aclweb.org/anthology/2020.clssts-1.11.pdf",
+    "code": null,
+    "figure": {
+      "slug": "subtitles",
+      "source": "https://aclanthology.org/2020.clssts-1.11.pdf",
+      "page": 2,
+      "figure": "Figure 1: subtitle-to-segmentation example",
+      "crop_normalized": [
+        0.085,
+        0.08,
+        0.92,
+        0.168
+      ],
+      "file": "/assets/images/papers/subtitles.png"
+    }
+  },
+  {
+    "slug": "unli",
+    "title": "Uncertain natural language inference",
+    "authors": "Tongfei Chen*, Zhengping Jiang*, Adam Poliak, Keisuke Sakaguchi, and Benjamin Van Durme",
+    "venue": "ACL2020",
+    "tags": [
+      "Probabilistic Inference",
+      "Semantics",
+      "Evaluation"
+    ],
+    "tldr": "Replace categorical entailment labels with human probability judgments about whether a hypothesis follows from a premise.",
+    "url": "https://www.aclweb.org/anthology/2020.acl-main.774.pdf",
+    "code": "https://github.com/ctongfei/unli",
+    "figure": {
+      "slug": "unli",
+      "source": "https://aclanthology.org/2020.acl-main.774.pdf",
+      "page": 2,
+      "figure": "Figure 1: scalar probability distributions across entailment categories",
+      "crop_normalized": [
+        0.515,
+        0.21,
+        0.885,
+        0.286
+      ],
+      "file": "/assets/images/papers/unli.png"
+    }
+  },
+  {
+    "slug": "csreader",
+    "title": "CSReader at SemEval-2018 task 11: Multiple choice question answering as textual entailment",
+    "authors": "Zhengping Jiang and Qi Sun",
+    "venue": "SemEval2018",
+    "tags": [
+      "Semantics"
+    ],
+    "tldr": "Frame multiple-choice reading comprehension as textual entailment, combining contextual representations with commonsense information.",
+    "url": "https://www.aclweb.org/anthology/S18-1176.pdf",
+    "code": null,
+    "figure": {
+      "slug": "csreader",
+      "source": "https://aclanthology.org/S18-1176.pdf",
+      "page": 2,
+      "figure": "Figure 2: model architecture",
+      "crop_normalized": [
+        0.52,
+        0.07,
+        0.9,
+        0.25
+      ],
+      "file": "/assets/images/papers/csreader.png"
+    }
+  }
+]

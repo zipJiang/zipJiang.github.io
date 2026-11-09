@@ -1,0 +1,82 @@
+:root{--ink:#182d47;--muted:#647184;--blue:#245ba6;--line:#dfe6ee;--soft:#f3f6fa}
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:var(--ink);font:15px/1.58 "Avenir Next",Avenir,-apple-system,BlinkMacSystemFont,sans-serif}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+button{font:inherit;cursor:pointer}
+button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #287cbb;outline-offset:4px}
+button:hover{border-color:var(--blue)}
+.shell{max-width:1320px;margin:0 auto;padding:56px 40px;display:grid;grid-template-columns:310px minmax(0,1fr);gap:66px}
+.profile{padding-top:3px}
+.portrait{width:112px;height:112px;object-fit:cover;border-radius:50%;margin-bottom:16px}
+h1{font-family:Charter,Georgia,serif;font-weight:600;font-size:32px;line-height:1.15;margin:0}
+.chinese{display:block;font:18px/1.6 "Avenir Next",sans-serif;margin-top:7px}
+.affiliation{margin:9px 0 12px;color:var(--muted);font-size:14px}
+.social{display:flex;gap:17px;align-items:center;margin-bottom:26px}
+.social a{font-weight:600;font-size:13px}
+.bio{font-size:14px;line-height:1.7}
+.bio p{margin:0 0 15px}
+.profile h2{font-size:16px;margin:30px 0 16px;font-weight:650}
+.experience{list-style:none;margin:0;padding:0}
+.experience li{margin-bottom:18px;font-size:13px;line-height:1.6}
+.experience strong{display:block;font-size:14px;font-weight:600}
+.experience .dates{display:block;color:var(--muted);font-size:12px}
+.experience .mentor{display:block;color:var(--muted);font-size:12px}
+summary{cursor:pointer;color:var(--blue);font-size:13px;margin:15px 0}
+.education{font-size:13px;color:var(--muted)}
+main h2{font:38px/1.2 Charter,Georgia,serif;margin:0 0 9px;letter-spacing:-.7px}
+.intro{color:var(--muted);font-size:15px;margin:0 0 24px}
+.paper{display:grid;grid-template-columns:190px minmax(0,1fr);gap:25px;padding:28px 0 30px;border-top:1px solid var(--line)}
+.paper[hidden]{display:none}
+.figure{display:flex;flex-direction:column;align-items:center;justify-content:center;align-self:start;min-height:164px;padding:10px;background:var(--soft);border-radius:8px;margin-top:3px}
+.figure img{width:100%;height:137px;object-fit:contain;background:#fff}
+.figure:hover{text-decoration:none;background:#eaf0f8}
+.venue{font-size:12px;font-weight:650;color:#5f6e82;margin:0 0 7px}
+.paper h3{font:600 20px/1.3 "Avenir Next",Avenir,sans-serif;letter-spacing:-.2px;margin:0 0 8px}
+.paper h3 a{color:var(--ink)}
+.authors{font-size:11px;line-height:1.55;color:var(--muted);margin:0 0 11px}
+.authors strong{color:var(--ink);font-weight:600}
+.tldr{font-size:14px;line-height:1.6;margin:0 0 12px}
+.tags{display:flex;gap:5px;flex-wrap:wrap}
+.tag{border:0;border-radius:4px;background:#edf2f8;color:#435b79;padding:3px 7px;font-size:10px;line-height:1.6}
+.tag[data-tag="Agentic RL"]{background:#e6f3ef;color:#176b58}
+.tag[data-tag="Safety"]{background:#f1eaf8;color:#72528c}
+.tag[data-tag="Calibration & Risk-control"]{background:#e8effa;color:#3f5a8b}
+.links{display:flex;gap:16px;font-size:12px;font-weight:600;margin-top:13px}
+.text-only{grid-template-columns:1fr}
+@media(min-width:1600px){.shell{padding-top:72px}
+}
+@media(max-width:1000px){.shell{grid-template-columns:260px minmax(0,1fr);gap:35px;padding:35px 25px}
+.paper{grid-template-columns:145px minmax(0,1fr);gap:17px}
+.figure img{height:110px}
+.figure{min-height:140px}
+.text-only{grid-template-columns:1fr}
+}
+@media(max-width:760px){.shell{display:block;padding:28px 22px}
+.profile{margin-bottom:44px}
+.portrait{float:right;width:82px;height:82px;margin:0 0 15px 18px}
+.profile h1{font-size:29px}
+.bio{max-width:580px}
+.profile h2{margin-top:25px}
+.experience{display:grid;grid-template-columns:1fr 1fr;gap:8px 18px}
+.paper{grid-template-columns:115px minmax(0,1fr);gap:15px;padding:23px 0}
+.paper h3{font-size:17px}
+.figure{padding:6px;min-height:118px}
+.figure img{height:92px}
+.tldr{font-size:13px}
+.authors{font-size:10px}
+.text-only{grid-template-columns:1fr}
+main h2{font-size:32px}
+}
+@media(max-width:400px){.paper{grid-template-columns:1fr}
+.figure{width:100%;max-width:250px}
+.figure img{height:130px}
+.experience{display:block}
+}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto}
+}
+
+.social a{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:6px}
+.social a:hover{background:var(--soft)}
+.social svg{width:21px;height:21px}
+.social{gap:9px;margin-left:-7px}
