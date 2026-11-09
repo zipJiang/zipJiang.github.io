@@ -11,9 +11,9 @@
   <div class="shell">
     {% include research-profile.html %}
     <main>
-      <h2>Research &amp; publications</h2>
+      <h2 id="publications-heading">Research &amp; publications</h2>
       <p class="intro">Learning, evaluating, and making decisions under uncertainty.</p>
-      <div class="papers">
+      <div class="papers" role="region" aria-labelledby="publications-heading" tabindex="0">
         {% for paper in site.data.papers %}
           {% include research-paper.html %}
         {% endfor %}
