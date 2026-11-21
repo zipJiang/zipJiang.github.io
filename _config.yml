@@ -7,3 +7,6 @@ google_analytics:
 theme: jekyll-theme-minimal
 url: "https://zipjiang.github.io"
 baseurl: ""
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
