@@ -16,9 +16,12 @@
   <main class="column">
     {% if page.layout == 'post' %}
     <article>
-      <p class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %-d, %Y' }}</time></p>
+      <p class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %-d, %Y' }}</time> · {{ page.author | default: site.author | default: 'Zhengping Jiang' }}</p>
       <h1>{{ page.title | escape }}</h1>
+      <div class="post-body">
       {{ content }}
+      </div>
+      <footer class="post-footer"><a href="{{ '/' | relative_url }}">← Back to Zhengping Jiang's homepage</a></footer>
     </article>
     {% else %}
     {{ content }}
