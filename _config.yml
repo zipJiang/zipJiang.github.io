@@ -10,3 +10,4 @@ baseurl: ""
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+permalink: /blog/:year/:month/:title/
