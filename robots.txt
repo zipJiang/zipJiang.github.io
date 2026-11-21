@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zipjiang.github.io/sitemap.xml
+Sitemap: https://zipjiang.github.io/FOCUS/sitemap-index.xml

@@ -5,6 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="knpY9uJiYpGdzW2OBCdAeeC7ZdtoEdl6MvRGtP_OKUM">
   {% seo %}
+  {% if page.url == "/" %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Zhengping Jiang",
+    "alternateName": "蒋正平",
+    "url": "https://zipjiang.github.io/",
+    "image": "https://zipjiang.github.io/assets/images/zhengping-jiang.jpeg",
+    "jobTitle": "PhD Student",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Center for Language and Speech Processing, Johns Hopkins University",
+      "url": "https://www.clsp.jhu.edu/"
+    },
+    "knowsAbout": [
+      "Large language models",
+      "Reinforcement learning",
+      "LLM agents",
+      "Uncertainty calibration",
+      "Natural language processing"
+    ],
+    "sameAs": [
+      "https://scholar.google.com/citations?user=skgb6DUAAAAJ",
+      "https://github.com/zipJiang",
+      "https://www.linkedin.com/in/zhengping-jiang-12a591169/",
+      "https://x.com/zhengping_jiang",
+      "https://huggingface.co/Zhengping"
+    ]
+  }
+  </script>
+  {% endif %}
   <link rel="stylesheet" href="{{ '/assets/css/research.css?v=' | append: site.github.build_revision | relative_url }}">
 </head>
 <body>
