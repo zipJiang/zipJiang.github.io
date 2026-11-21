@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Introducing Pubbo, an EPUB reader for Android
-description: Pubbo is an EPUB reader for Android, built around reading, highlighting, and finding your place again. It is currently in testing.
+title: Introducing Pubbo
+description: Pubbo is a small EPUB reader for Android that I've been building, made for reading, highlighting, and finding your place again. It's currently in testing.
 author: Zhengping Jiang
 ---
 
-I've been building [Pubbo](/pubbo/), an EPUB reader for Android built around reading, highlighting, and finding your place again.
+Pubbo is a small EPUB reader for Android that I've been building. It's meant for the reading itself: opening a book, marking what matters, and finding your place again later.
 
-You open EPUB files you choose from your device, adjust the typography, save bookmarks and highlights, and pick up where you left off. Local reading doesn't need an account.
+Everything starts on your phone. You pick EPUB files from your device, set the typography the way you like it, and Pubbo keeps your bookmarks, highlights, and position. None of that needs an account.
 
-Signing in with Google creates an optional Pubbo account, and accounts with cloud access can sync their library and reading data. You can also connect ChatGPT separately for explanations and summaries, which sends the relevant book text to OpenAI.
+If you want more, you can sign in with Google. Accounts with cloud access sync their library and reading data. You can also connect ChatGPT to get explanations and summaries of what you're reading. When you do, the relevant book text is sent to OpenAI.
 
-Pubbo is in testing right now and isn't publicly available on Google Play yet. The [Pubbo page](/pubbo/) has more, including the [privacy policy](/pubbo/privacy/) and [terms of use](/pubbo/terms/).
+Pubbo is still in testing and isn't on Google Play yet. If you're curious, the [Pubbo page](/pubbo/) has the details, along with the [privacy policy](/pubbo/privacy/) and [terms of use](/pubbo/terms/).

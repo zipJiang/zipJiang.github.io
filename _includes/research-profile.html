@@ -32,7 +32,7 @@
 <div class="bio">
 <p>I develop and train <strong>reliable language models under uncertainty</strong> and incomplete information. My work connects probabilistic evaluation with post-training: identifying model failures, calibrating what models say, and guiding how long-horizon agents learn and allocate computation. I’m fortunate to be advised by <a href="https://www.cs.jhu.edu/~vandurme/">Benjamin Van Durme</a> and <a href="https://anqiliu-ai.github.io/">Anqi Liu</a>.</p>
 </div>
-<p class="site-links"><a href="{{ '/blog/' | relative_url }}">Blog</a> · <a href="{{ '/pubbo/' | relative_url }}">Pubbo</a></p>
+{% if site.posts.size > 0 %}<p class="site-links"><a href="{{ site.posts.first.url | relative_url }}">Blog</a></p>{% endif %}
 <h2>Research experience</h2>
 <ul class="experience">
 <li>

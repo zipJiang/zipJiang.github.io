@@ -11,7 +11,6 @@
     <a class="home" href="{{ '/' | relative_url }}">Zhengping Jiang</a>
     <nav aria-label="Site">
       <a href="{{ '/' | relative_url }}">Research</a>
-      <a href="{{ '/blog/' | relative_url }}"{% if page.url == '/blog/' %} aria-current="page"{% endif %}>Blog</a>
     </nav>
   </header>
   <main class="column">
@@ -21,7 +20,6 @@
       <h1>{{ page.title | escape }}</h1>
       {{ content }}
     </article>
-    <p class="back"><a href="{{ '/blog/' | relative_url }}">All posts</a></p>
     {% else %}
     {{ content }}
     {% endif %}
