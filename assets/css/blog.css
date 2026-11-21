@@ -19,3 +19,6 @@ h2{font-size:17px;font-weight:650;margin:36px 0 12px}
 article p{margin:0 0 18px}
 .back{margin-top:40px;font-size:14px;font-weight:600}
 @media(max-width:600px){h1{font-size:30px}.column{padding-top:28px}}
+.post-body{font:18px/1.75 Charter,Georgia,serif}
+.post-body p{margin:0 0 22px}
+.post-footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--line);font-size:14px;font-weight:600}
