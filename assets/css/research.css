@@ -91,3 +91,4 @@ main h2{font-size:32px}
   .papers{min-height:0;overflow-y:auto;overscroll-behavior-y:contain;padding-right:8px}
 }
 .papers:focus-visible,.profile:focus-visible{outline:3px solid #287cbb;outline-offset:4px}
+.site-links{font-size:14px;font-weight:600;margin:0 0 4px}

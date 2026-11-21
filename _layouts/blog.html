@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/blog.css?v=' | append: site.github.build_revision | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="home" href="{{ '/' | relative_url }}">Zhengping Jiang</a>
+    <nav aria-label="Site">
+      <a href="{{ '/' | relative_url }}">Research</a>
+      <a href="{{ '/blog/' | relative_url }}"{% if page.url == '/blog/' %} aria-current="page"{% endif %}>Blog</a>
+    </nav>
+  </header>
+  <main class="column">
+    {% if page.layout == 'post' %}
+    <article>
+      <p class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %-d, %Y' }}</time></p>
+      <h1>{{ page.title | escape }}</h1>
+      {{ content }}
+    </article>
+    <p class="back"><a href="{{ '/blog/' | relative_url }}">All posts</a></p>
+    {% else %}
+    {{ content }}
+    {% endif %}
+  </main>
+</body>
+</html>
